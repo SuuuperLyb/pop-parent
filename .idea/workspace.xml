@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/conf/JeidsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/three/JedisCore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/type/RcodeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/util/Rutil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lyb/src/test/java/com/offway/poplyb/test/TestJedis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-dyh/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-gxb/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-hqs/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-lxm/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-lyb/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-lyb/src/test/java/com/offway/poplyb/PopLybApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lyb/src/test/java/com/offway/poplyb/PopLybApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-zgy/src/main/resources/application.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dlLIRxJW8vhnbF6PrMCcS36Cuq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/conf" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\conf" />
+      <recent name="E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\three" />
+      <recent name="E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\type" />
+      <recent name="E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\util" />
+      <recent name="E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PopLybApplicationTests">
+    <configuration name="TestJedis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.offway.poplyb.test.TestJedis" />
+      <module name="pop-lyb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.offway.poplyb.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PopLybApplicationTests" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="pop-lyb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.offway.poplyb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.offway.poplyb.PopLybApplicationTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PopSetupApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pop-setup" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.offway.PopSetupApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PopLybApplicationTests" />
+        <item itemvalue="Application.TestJedis" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="" />
+      <created>1592994652923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592994652923</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="174" y="0" key="#Project_Structure" timestamp="1593001099003">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="174" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1593001099003" />
+    <state x="274" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592999053047">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="274" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1592999053047" />
+    <state x="98" y="0" key="CommitChangelistDialog2" timestamp="1593001619463">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="98" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1593001619463" />
+    <state x="412" y="66" key="FileChooserDialogImpl" timestamp="1592994748718">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="412" y="66" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1592994748718" />
+    <state width="1309" height="219" key="GridCell.Tab.0.bottom" timestamp="1593001501628">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1309" height="219" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593001501628" />
+    <state width="1309" height="219" key="GridCell.Tab.0.center" timestamp="1593001501627">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1309" height="219" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593001501627" />
+    <state width="1309" height="219" key="GridCell.Tab.0.left" timestamp="1593001501627">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1309" height="219" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593001501627" />
+    <state width="1309" height="219" key="GridCell.Tab.0.right" timestamp="1593001501627">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1309" height="219" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593001501627" />
+    <state width="1309" height="219" key="GridCell.Tab.1.bottom" timestamp="1593001501628">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1309" height="219" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593001501628" />
+    <state width="1309" height="219" key="GridCell.Tab.1.center" timestamp="1593001501628">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1309" height="219" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1593001501628" />
+    <state width="1309" height="219" key="GridCell.Tab.1.left" timestamp="1593001501628">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1309" height="219" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1593001501628" />
+    <state width="1309" height="219" key="GridCell.Tab.1.right" timestamp="1593001501628">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1309" height="219" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1593001501628" />
+    <state x="67" y="0" key="SettingsEditor" timestamp="1592994755077">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="67" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1592994755077" />
+    <state x="299" y="151" key="com.intellij.ide.util.TipDialog" timestamp="1593000804981">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="299" y="151" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1593000804981" />
+  </component>
+</project>

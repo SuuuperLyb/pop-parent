@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pop-common" />
+        <module name="pop-lxm" />
+        <module name="pop-gxb" />
+        <module name="pop-setup" />
+        <module name="pop-hqs" />
+        <module name="pop-dyh" />
+        <module name="pop-zyn" />
+        <module name="pop-lyb" />
+        <module name="pop-zgy" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pop-common" target="1.8" />
+      <module name="pop-dyh" target="1.8" />
+      <module name="pop-gxb" target="1.8" />
+      <module name="pop-hqs" target="1.8" />
+      <module name="pop-lxm" target="1.8" />
+      <module name="pop-lyb" target="1.8" />
+      <module name="pop-parent" target="1.8" />
+      <module name="pop-setup" target="1.8" />
+      <module name="pop-zgy" target="1.8" />
+      <module name="pop-zyn" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pop-common" options="-parameters" />
+      <module name="pop-dyh" options="-parameters" />
+      <module name="pop-gxb" options="-parameters" />
+      <module name="pop-hqs" options="-parameters" />
+      <module name="pop-lxm" options="-parameters" />
+      <module name="pop-lyb" options="-parameters" />
+      <module name="pop-setup" options="-parameters" />
+      <module name="pop-zgy" options="-parameters" />
+      <module name="pop-zyn" options="-parameters" />
+    </option>
+  </component>
+</project>
