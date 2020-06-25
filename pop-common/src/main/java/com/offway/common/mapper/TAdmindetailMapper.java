@@ -1,7 +1,7 @@
 package com.offway.common.mapper;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.offway.common.entity.TAdmindetail;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
  * <p>

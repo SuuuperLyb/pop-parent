@@ -1,8 +1,9 @@
 package com.offway.common.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.extension.activerecord.Model;
+
 import java.io.Serializable;
 
 /**
@@ -11,7 +12,7 @@ import java.io.Serializable;
  * </p>
  *
  * @author LYB
- * @since 2020-06-23
+ * @since 2020-06-25
  */
 public class TStyle extends Model<TStyle> {
 
@@ -28,21 +29,6 @@ public class TStyle extends Model<TStyle> {
      */
     private String styleName;
 
-    /**
-     * 商品风格热度
-     */
-    private String styleHeat;
-
-    /**
-     * 商品id
-     */
-    private Integer goodsId;
-
-    /**
-     * 明星id
-     */
-    private Integer starId;
-
     public Integer getId() {
         return id;
     }
@@ -57,27 +43,6 @@ public class TStyle extends Model<TStyle> {
     public void setStyleName(String styleName) {
         this.styleName = styleName;
     }
-    public String getStyleHeat() {
-        return styleHeat;
-    }
-
-    public void setStyleHeat(String styleHeat) {
-        this.styleHeat = styleHeat;
-    }
-    public Integer getGoodsId() {
-        return goodsId;
-    }
-
-    public void setGoodsId(Integer goodsId) {
-        this.goodsId = goodsId;
-    }
-    public Integer getStarId() {
-        return starId;
-    }
-
-    public void setStarId(Integer starId) {
-        this.starId = starId;
-    }
 
     @Override
     protected Serializable pkVal() {
@@ -89,9 +54,6 @@ public class TStyle extends Model<TStyle> {
         return "TStyle{" +
             "id=" + id +
             ", styleName=" + styleName +
-            ", styleHeat=" + styleHeat +
-            ", goodsId=" + goodsId +
-            ", starId=" + starId +
         "}";
     }
 }

@@ -2,7 +2,6 @@ package com.offway.Lyb.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.offway.Lyb.dto.UserLikeGoodsDto;
-import com.offway.common.entity.TUserlike;
 
 import java.util.List;
 

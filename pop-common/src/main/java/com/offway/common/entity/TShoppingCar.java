@@ -12,7 +12,7 @@ import java.io.Serializable;
  * </p>
  *
  * @author LYB
- * @since 2020-06-24
+ * @since 2020-06-25
  */
 public class TShoppingCar extends Model<TShoppingCar> {
 

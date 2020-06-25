@@ -8,31 +8,36 @@ import java.io.Serializable;
 
 /**
  * <p>
- * 明星star表
+ * 
  * </p>
  *
  * @author LYB
  * @since 2020-06-25
  */
-public class TStar extends Model<TStar> {
+public class TUserDiscount extends Model<TUserDiscount> {
 
     private static final long serialVersionUID = 1L;
 
     /**
-     * 明星id
+     * 主键
      */
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
     /**
-     * 明星名字
+     * 用户id
      */
-    private String starName;
+    private Integer uId;
 
     /**
-     * 明星穿搭描述
+     * 优惠卷id
      */
-    private String starWeardescription;
+    private Integer dId;
+
+    /**
+     * 用户手机号
+     */
+    private String uPhone;
 
     public Integer getId() {
         return id;
@@ -41,19 +46,26 @@ public class TStar extends Model<TStar> {
     public void setId(Integer id) {
         this.id = id;
     }
-    public String getStarName() {
-        return starName;
+    public Integer getuId() {
+        return uId;
     }
 
-    public void setStarName(String starName) {
-        this.starName = starName;
+    public void setuId(Integer uId) {
+        this.uId = uId;
     }
-    public String getStarWeardescription() {
-        return starWeardescription;
+    public Integer getdId() {
+        return dId;
     }
 
-    public void setStarWeardescription(String starWeardescription) {
-        this.starWeardescription = starWeardescription;
+    public void setdId(Integer dId) {
+        this.dId = dId;
+    }
+    public String getuPhone() {
+        return uPhone;
+    }
+
+    public void setuPhone(String uPhone) {
+        this.uPhone = uPhone;
     }
 
     @Override
@@ -63,10 +75,11 @@ public class TStar extends Model<TStar> {
 
     @Override
     public String toString() {
-        return "TStar{" +
+        return "TUserDiscount{" +
             "id=" + id +
-            ", starName=" + starName +
-            ", starWeardescription=" + starWeardescription +
+            ", uId=" + uId +
+            ", dId=" + dId +
+            ", uPhone=" + uPhone +
         "}";
     }
 }

@@ -3,7 +3,7 @@
 <mapper namespace="com.offway.common.mapper.TAdmindetailMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.offway.lyb.entity.TAdmindetail">
+    <resultMap id="BaseResultMap" type="com.offway.common.entity.TAdmindetail">
         <id column="a_name" property="aName" />
         <result column="a_id" property="aId" />
     </resultMap>

@@ -5,8 +5,6 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.offway.common.entity.R;
-import com.offway.common.entity.TStarStyle;
-import com.offway.common.entity.TStylePhotos;
 import com.offway.common.mapper.TStarStyleMapper;
 import com.offway.common.mapper.TStylePhotosMapper;
 import com.offway.common.three.JedisCore;

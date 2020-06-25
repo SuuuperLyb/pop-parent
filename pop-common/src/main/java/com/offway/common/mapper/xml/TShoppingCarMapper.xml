@@ -3,7 +3,7 @@
 <mapper namespace="com.offway.common.mapper.TShoppingCarMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.offway.lyb.entity.TShoppingCar">
+    <resultMap id="BaseResultMap" type="com.offway.common.entity.TShoppingCar">
         <id column="sc_id" property="scId" />
         <result column="sc_allmoney" property="scAllmoney" />
         <result column="sc_goodsnum" property="scGoodsnum" />

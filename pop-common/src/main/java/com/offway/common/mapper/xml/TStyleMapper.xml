@@ -6,14 +6,11 @@
     <resultMap id="BaseResultMap" type="com.offway.common.entity.TStyle">
         <id column="id" property="id" />
         <result column="style_name" property="styleName" />
-        <result column="style_heat" property="styleHeat" />
-        <result column="goods_id" property="goodsId" />
-        <result column="star_id" property="starId" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, style_name, style_heat, goods_id, star_id
+        id, style_name
     </sql>
 
 </mapper>

@@ -3,7 +3,7 @@
 <mapper namespace="com.offway.common.mapper.TStarStyleMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.offway.lyb.entity.TStarStyle">
+    <resultMap id="BaseResultMap" type="com.offway.common.entity.TStarStyle">
         <id column="star_style_id" property="starStyleId" />
         <result column="star_id" property="starId" />
         <result column="style_desc" property="styleDesc" />

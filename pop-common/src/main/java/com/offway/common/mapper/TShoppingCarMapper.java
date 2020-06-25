@@ -1,7 +1,7 @@
 package com.offway.common.mapper;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.offway.common.entity.TShoppingCar;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
  * <p>
@@ -9,7 +9,7 @@ import com.offway.common.entity.TShoppingCar;
  * </p>
  *
  * @author LYB
- * @since 2020-06-24
+ * @since 2020-06-25
  */
 public interface TShoppingCarMapper extends BaseMapper<TShoppingCar> {
 

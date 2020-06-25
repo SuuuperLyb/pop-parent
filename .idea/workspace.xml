@@ -19,12 +19,79 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/dto/HotStarInf.java" afterDir="false" />
+    <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="保存">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-dyh/src/test/java/com/offway/popdyh/PopDyhApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TAdmin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TAdmindetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TBrand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TCommentUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TCoupon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TDiscount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TFirsttype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TGoodimg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TGoodsDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TSectype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TShoppingCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TStar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TStarStyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TStyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TStylePhotos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TUserAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TUserlike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TAdminMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TAdmindetailMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TBrandMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TCommentUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TCouponMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TDiscountMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TFirsttypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TGoodimgMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TGoodsDetailMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TOrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TSectypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TShoppingCarMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TStarMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TStarStyleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TStoreMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TStyleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TStylePhotosMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TUserAddressMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TUserDetailsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TUserlikeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TAdminMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TAdmindetailMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TBrandMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TCommentUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TCouponMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TDiscountMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TFirsttypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TGoodimgMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TGoodsDetailMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TOrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TSectypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TShoppingCarMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStarMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStarStyleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStoreMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStyleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStylePhotosMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TUserAddressMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TUserDetailsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TUserlikeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/mapper/TUserlikeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/mapper/TUserlikeMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarShowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/dto/HotStarInf.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/dto/HotStarInf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/TStarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/TStarService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/TStarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/TStarServiceImpl.java" afterDir="false" />
     </list>
@@ -32,20 +99,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -109,7 +162,20 @@
       <recent name="E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZynApplication">
+  <component name="RunManager" selected="Application.Generrator (1)">
+    <configuration name="Generrator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.offway.common.generator.Generrator" />
+      <module name="pop-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.offway.common.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Generrator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.offway.lyb.generator.Generrator" />
       <module name="pop-lyb" />
@@ -187,6 +253,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Generrator (1)" />
         <item itemvalue="Spring Boot.ZynApplication" />
         <item itemvalue="Application.Generrator" />
         <item itemvalue="Spring Boot.PopLybApplicationTests" />
@@ -204,6 +271,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592994652923</updated>
+      <workItem from="1593075886836" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="统一返回值&#10;增加redis依赖">
       <created>1593001680160</created>
@@ -233,11 +301,18 @@
       <option name="project" value="LOCAL" />
       <updated>1593064591902</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="保存">
+      <created>1593073969015</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593073969015</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="oldMeFiltersMigrated" value="true" />
@@ -246,22 +321,28 @@
     <MESSAGE value="统一返回值&#10;增加redis依赖" />
     <MESSAGE value="增加三个实体类 明星style 明星照片 后台管理员详情&#10;增加RedisKeyConfig 去掉lombook true属性" />
     <MESSAGE value="修改一些公共模块错误 轮播图添加排序字段" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改一些公共模块错误 轮播图添加排序字段" />
+    <MESSAGE value="保存" />
+    <option name="LAST_COMMIT_MESSAGE" value="保存" />
   </component>
   <component name="WindowStateProjectService">
     <state x="174" y="0" key="#Project_Structure" timestamp="1593065611477">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="174" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1593065611477" />
-    <state x="274" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592999053047">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="308" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593074797754">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="274" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1592999053047" />
+    <state x="308" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1593074797754" />
     <state x="498" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1593067885224">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="443" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1593065474619" />
     <state x="498" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1593067885224" />
+    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593074875820">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1593074875820" />
     <state x="98" y="0" key="CommitChangelistDialog2" timestamp="1593064875892">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -274,46 +355,46 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="412" y="66" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1593004669643" />
-    <state width="1493" height="270" key="GridCell.Tab.0.bottom" timestamp="1593073512414">
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom" timestamp="1593075868115">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1493" height="270" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593073512414" />
-    <state width="1493" height="270" key="GridCell.Tab.0.center" timestamp="1593073512414">
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593075868115" />
+    <state width="1493" height="174" key="GridCell.Tab.0.center" timestamp="1593075868114">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1493" height="270" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593073512414" />
-    <state width="1493" height="270" key="GridCell.Tab.0.left" timestamp="1593073512413">
+    <state width="1493" height="174" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593075868114" />
+    <state width="1493" height="174" key="GridCell.Tab.0.left" timestamp="1593075868114">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1493" height="270" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593073512413" />
-    <state width="1493" height="270" key="GridCell.Tab.0.right" timestamp="1593073512414">
+    <state width="1493" height="174" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593075868114" />
+    <state width="1493" height="174" key="GridCell.Tab.0.right" timestamp="1593075868114">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1493" height="270" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593073512414" />
-    <state width="1493" height="270" key="GridCell.Tab.1.bottom" timestamp="1593073512414">
+    <state width="1493" height="174" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593075868114" />
+    <state width="1493" height="174" key="GridCell.Tab.1.bottom" timestamp="1593074932993">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1493" height="270" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593073512414" />
-    <state width="1493" height="270" key="GridCell.Tab.1.center" timestamp="1593073512414">
+    <state width="1493" height="174" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593074932993" />
+    <state width="1493" height="174" key="GridCell.Tab.1.center" timestamp="1593074932993">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1493" height="270" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1593073512414" />
-    <state width="1493" height="270" key="GridCell.Tab.1.left" timestamp="1593073512414">
+    <state width="1493" height="174" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1593074932993" />
+    <state width="1493" height="174" key="GridCell.Tab.1.left" timestamp="1593074932993">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1493" height="270" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1593073512414" />
-    <state width="1493" height="270" key="GridCell.Tab.1.right" timestamp="1593073512414">
+    <state width="1493" height="174" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1593074932993" />
+    <state width="1493" height="174" key="GridCell.Tab.1.right" timestamp="1593074932993">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1493" height="270" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1593073512414" />
+    <state width="1493" height="174" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1593074932993" />
     <state x="128" y="61" key="MergeDialog" timestamp="1593064798642">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -343,6 +424,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="329" y="115" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1593064855655" />
+    <state x="421" y="30" width="733" height="783" key="new project wizard" timestamp="1593075299223">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="421" y="30" width="733" height="783" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1593075299223" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1593069918735">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
