@@ -19,6 +19,9 @@
     </properties>
 
     <dependencies>
+
+
+
         <dependency>
             <groupId>com.offway</groupId>
             <artifactId>pop-common</artifactId>

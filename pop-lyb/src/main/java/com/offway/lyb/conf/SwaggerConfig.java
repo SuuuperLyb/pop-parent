@@ -1,4 +1,4 @@
-package com.offway.Lyb.conf;
+package com.offway.lyb.conf;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,10 +13,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration //配置文件
 @EnableSwagger2 //启用Swagger
-public class                        SwaggerConfig {
+public class SwaggerConfig {
     //创建文档说明
     public ApiInfo createAI(){
-        ApiInfo apiInfo=new ApiInfoBuilder().title("展示页面接口").
+        ApiInfo apiInfo=new ApiInfoBuilder().title("饿了没后端接口文档").
                 description("饿了没项目的所有接口信息，可以查看对应的接口信息和对接口进行测试").
                 contact(new Contact("LYB","http://www.777.top","18538022398@163.com")).build();
         return apiInfo;

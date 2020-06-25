@@ -1,4 +1,4 @@
-package com.offway.Lyb.dto;
+package com.offway.lyb.dto;
 
 
 import lombok.AllArgsConstructor;

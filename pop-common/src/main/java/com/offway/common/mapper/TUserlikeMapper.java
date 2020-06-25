@@ -3,7 +3,6 @@ package com.offway.common.mapper;
 import com.offway.common.entity.TUserlike;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
-import java.util.List;
 
 
 /**

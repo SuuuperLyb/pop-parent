@@ -1,14 +1,14 @@
-package com.offway.Lyb.sevice.impl;
+package com.offway.lyb.sevice.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.offway.Lyb.dto.UserLikeGoodsDto;
-import com.offway.Lyb.sevice.MainPageService;
+import com.offway.lyb.dto.UserLikeGoodsDto;
+import com.offway.lyb.mapper.TUserlike2Mapper;
+import com.offway.lyb.sevice.MainPageService;
 import com.offway.common.entity.*;
 import com.offway.common.mapper.*;
 import com.offway.common.util.Rutil;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.offway.Lyb.mapper.TUserlikeMapper;
+
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -26,7 +26,7 @@ public class MianPageServiceImpl implements MainPageService {
     private TGoodsDetailMapper tGoodsDetailMapper;
 
     @Resource
-    private TUserlikeMapper tUserlikeMapper;
+    private TUserlike2Mapper tUserlike2Mapper;
 
     @Resource
     private TSectypeMapper tSectypeMapper;
@@ -46,8 +46,8 @@ public class MianPageServiceImpl implements MainPageService {
 
     @Override
     public R findUserLikesGoods() {
-        List<UserLikeGoodsDto> tUserlikeList = tUserlikeMapper.secletUserGoods();
-        return null;
+        List<UserLikeGoodsDto> tUserlikeList = tUserlike2Mapper.secletUserGoods();
+        return Rutil.Ok(tUserlikeList);
     }
 
 

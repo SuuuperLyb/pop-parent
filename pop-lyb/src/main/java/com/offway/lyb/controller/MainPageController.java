@@ -1,16 +1,18 @@
-package com.offway.Lyb.controller;
+package com.offway.lyb.controller;
 
 
-import com.offway.Lyb.sevice.MainPageService;
+import com.offway.lyb.sevice.MainPageService;
 import com.offway.common.entity.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
+
 @RestController
 public class MainPageController {
 
-    @Autowired
+    @Resource
     private MainPageService mainPageService;
 
     //首页轮播图

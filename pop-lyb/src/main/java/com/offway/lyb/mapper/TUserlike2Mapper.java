@@ -1,8 +1,9 @@
-package com.offway.Lyb.mapper;
+package com.offway.lyb.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.offway.Lyb.dto.UserLikeGoodsDto;
 import com.offway.common.entity.TUserlike;
+import com.offway.lyb.dto.UserLikeGoodsDto;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -15,7 +16,8 @@ import java.util.List;
  * @author LYB
  * @since 2020-06-23
  */
-public interface TUserlikeMapper extends BaseMapper<TUserlike> {
+
+public interface TUserlike2Mapper {
 
     List<UserLikeGoodsDto> secletUserGoods();
 

@@ -4,13 +4,14 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 
 @SpringBootApplication
-@MapperScan("com.offway.Lyb.mapper")
+@EnableSwagger2
 @MapperScan("com.offway.common.mapper")
-@ComponentScan("com.offway.Lyb.conf")
-@ComponentScan("com.offway.common.conf")
+@MapperScan("com.offway.lyb.mapper")
+@ComponentScan("com.offway.lyb.conf")
 public class PopLybApplicationTests {
 
     public static void main(String[] args) {

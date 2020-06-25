@@ -1,9 +1,9 @@
-package com.offway.Lyb.sevice;
+package com.offway.lyb.sevice;
 
 
 import com.offway.common.entity.R;
 
-public interface MainPageService {
+public interface MainPageService  {
     //首页轮播图
     R findAdPic();
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.offway.Lyb.mapper.TUserlikeMapper">
+<mapper namespace="com.offway.lyb.mapper.TUserlike2Mapper">
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.offway.common.entity.TUserlike">
@@ -14,7 +14,7 @@
     </resultMap>
     
     
-    <resultMap id="userLikeGoodsMap" type="com.offway.Lyb.dto.UserLikeGoodsDto">
+    <resultMap id="userLikeGoodsMap" type="com.offway.lyb.dto.UserLikeGoodsDto">
         <result column="g_id" property="goodsId"/>
         <result column="g_id" property="goodsCount"/>
     </resultMap>
