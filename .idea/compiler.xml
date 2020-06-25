@@ -8,11 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="pop-common" />
         <module name="pop-lxm" />
-        <module name="pop-gxb" />
         <module name="pop-setup" />
-        <module name="pop-hqs" />
-        <module name="pop-dyh" />
         <module name="pop-zyn" />
+        <module name="pop-hqs" />
+        <module name="pop-gxb" />
+        <module name="pop-dyh" />
         <module name="pop-lyb" />
         <module name="pop-zgy" />
       </profile>
