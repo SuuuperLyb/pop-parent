@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/conf/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TUserDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TUserDiscountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TUserDiscountMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TStylePhotos.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TStylePhotos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStylePhotosMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStylePhotosMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-lyb/src/test/java/com/offway/poplyb/PopLybApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lyb/src/test/java/com/offway/poplyb/PopLybApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/conf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -80,15 +79,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.offway.Lyb.mapper" />
-      <recent name="com.offway.lyb.generator" />
       <recent name="com.offway.common.mapper" />
       <recent name="com.offway.common.entity" />
+      <recent name="com.offway.Lyb.mapper" />
+      <recent name="com.offway.lyb.generator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\mapper\xml" />
       <recent name="E:\ideaworkspace1\pop-lyb\src\main\java\com\offway\Lyb\conf" />
       <recent name="E:\ideaworkspace1\pop-lyb\src\main\java\com\offway\Lyb\mapper\xml" />
-      <recent name="E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\mapper\xml" />
       <recent name="E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\mapper" />
       <recent name="E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity" />
     </key>
@@ -212,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593064591902</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="明星style 增加图片url字段">
+      <created>1593065649480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593065649480</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +228,8 @@
     <MESSAGE value="统一返回值&#10;增加redis依赖" />
     <MESSAGE value="增加三个实体类 明星style 明星照片 后台管理员详情&#10;增加RedisKeyConfig 去掉lombook true属性" />
     <MESSAGE value="修改一些公共模块错误 轮播图添加排序字段" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改一些公共模块错误 轮播图添加排序字段" />
+    <MESSAGE value="明星style 增加图片url字段" />
+    <option name="LAST_COMMIT_MESSAGE" value="明星style 增加图片url字段" />
   </component>
   <component name="WindowStateProjectService">
     <state x="174" y="0" key="#Project_Structure" timestamp="1593065611477">
@@ -237,10 +244,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="443" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1593065474619" />
-    <state x="98" y="0" key="CommitChangelistDialog2" timestamp="1593064875892">
+    <state x="98" y="0" key="CommitChangelistDialog2" timestamp="1593065648059">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="98" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1593064875892" />
+    <state x="98" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1593065648059" />
     <state x="128" y="60" key="DiffContextDialog" timestamp="1593002186994">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -293,22 +300,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="67" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1593053200425" />
-    <state x="174" y="36" key="Vcs.Push.Dialog.v2" timestamp="1593064904944">
+    <state x="174" y="36" key="Vcs.Push.Dialog.v2" timestamp="1593065662908">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="174" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1593064904944" />
+    <state x="174" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1593065662908" />
     <state x="299" y="151" key="com.intellij.ide.util.TipDialog" timestamp="1593050310513">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="299" y="151" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1593050310513" />
-    <state x="441" y="266" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593064847574">
+    <state x="441" y="266" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593068066896">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="441" y="266" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1593064847574" />
-    <state x="329" y="115" key="git4idea.merge.GitPullDialog" timestamp="1593064855655">
+    <state x="441" y="266" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1593068066896" />
+    <state x="329" y="115" key="git4idea.merge.GitPullDialog" timestamp="1593068087741">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="329" y="115" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1593064855655" />
+    <state x="329" y="115" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1593068087741" />
+    <state x="295" y="0" width="1050" height="738" key="new project wizard" timestamp="1593066560045">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="295" y="0" width="1050" height="738" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1593066560045" />
     <state x="402" y="266" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1593058597791">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
