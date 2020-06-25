@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/controller/MainPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/dto/AdPicDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/dto/UserLikeGoodsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/mapper/TUserlikeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/mapper/xml/TUserlikeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/sevice/MainPageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/sevice/impl/MianPageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TCoupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TCoupon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TGoodimg.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TGoodimg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TStarStyleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TStarStyleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TStylePhotosMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TStylePhotosMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TUserlikeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TUserlikeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TAdmindetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TAdmindetailMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TCouponMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TCouponMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TShoppingCarMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TShoppingCarMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStarStyleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStarStyleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStylePhotosMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStylePhotosMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/target/classes/com/offway/common/entity/TGoodimg.class" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/target/classes/com/offway/common/entity/TGoodimg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/target/pop-common-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/target/pop-common-0.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-dyh/pop-dyh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-dyh/pop-dyh.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-gxb/pop-gxb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-gxb/pop-gxb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-hqs/pop-hqs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-hqs/pop-hqs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-lxm/pop-lxm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lxm/pop-lxm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-lyb/pop-lyb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lyb/pop-lyb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-setup/pop-setup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-setup/pop-setup.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zgy/pop-zgy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zgy/pop-zgy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/pop-zyn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/pop-zyn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/target/classes/com/offway/common/conf/RedisKeyConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/target/classes/com/offway/common/entity/TAdmindetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/target/classes/com/offway/common/entity/TGoodimg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/target/classes/com/offway/common/entity/TStarStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/target/classes/com/offway/common/entity/TStylePhotos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/target/classes/com/offway/common/mapper/TAdmindetailMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/target/classes/com/offway/common/mapper/TStarStyleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/target/classes/com/offway/common/mapper/TStylePhotosMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/target/pop-common-0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarShowController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +74,6 @@
         <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1dlLIRxJW8vhnbF6PrMCcS36Cuq" />
   <component name="ProjectLevelVcsManager">
@@ -86,7 +81,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -190,17 +184,8 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -237,6 +222,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="统一返回值&#10;增加redis依赖" />
     <MESSAGE value="增加三个实体类 明星style 明星照片 后台管理员详情&#10;增加RedisKeyConfig 去掉lombook true属性" />
@@ -267,22 +255,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="412" y="66" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1593004669643" />
-    <state width="1309" height="219" key="GridCell.Tab.0.bottom" timestamp="1593056705391">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1493" height="144" key="GridCell.Tab.0.bottom" timestamp="1593065426931">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1309" height="219" key="GridCell.Tab.0.center" timestamp="1593056705391">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1493" height="144" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593065426931" />
+    <state width="1493" height="144" key="GridCell.Tab.0.center" timestamp="1593065426931">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1309" height="219" key="GridCell.Tab.0.left" timestamp="1593056705391">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1493" height="144" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593065426931" />
+    <state width="1493" height="144" key="GridCell.Tab.0.left" timestamp="1593065426931">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1309" height="219" key="GridCell.Tab.0.right" timestamp="1593056705391">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1493" height="144" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593065426931" />
+    <state width="1493" height="144" key="GridCell.Tab.0.right" timestamp="1593065426931">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
+    <state width="1493" height="144" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593065426931" />
     <state width="1309" height="219" key="GridCell.Tab.1.bottom" timestamp="1593008021443">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -323,10 +315,11 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="441" y="266" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1593006170555" />
-    <state x="329" y="115" key="git4idea.merge.GitPullDialog" timestamp="1593052824255">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="370" y="130" key="git4idea.merge.GitPullDialog" timestamp="1593065444253">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="329" y="115" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1593052824255" />
+    <state x="370" y="130" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1593065444253" />
     <state x="402" y="266" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1593058597791">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

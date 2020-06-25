@@ -34,7 +34,8 @@ public class StarShowController {
         if(isExit){//如果缓存中存在
             return Rutil.Ok(jedisCore.getVal("mainStarInfo"));
         }else {//缓存中不存在，去数据库中查询并添加到缓存中
-            tStarService.getMainStarInfo();
+//            tStarService.getMainStarInfo();
+
             return Rutil.Ok();
         }
     }
@@ -48,7 +49,14 @@ public class StarShowController {
      **/
     @GetMapping("/star/listAll")
     public R showAll(){
-        return null;
+        boolean isExit = jedisCore.isExist("starList");//判断缓存是否有明星穿搭的轮播图信息
+        if(isExit){//如果缓存中存在
+            return Rutil.Ok(jedisCore.getVal("starList"));
+        }else {//缓存中不存在，去数据库中查询并添加到缓存中
+//            tStarService.getMainStarInfo();
+
+            return Rutil.Ok();
+        }
     }
 
     /**
