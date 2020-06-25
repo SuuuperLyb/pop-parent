@@ -2,6 +2,7 @@ package com.offway.zyn.controller;
 
 import com.offway.common.entity.R;
 import com.offway.common.three.JedisCore;
+import com.offway.common.util.Rutil;
 import com.offway.zyn.service.TStarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -29,7 +30,13 @@ public class StarShowController {
      **/
     @GetMapping("/star/index")
     public R showMainStar(){
-        return null;
+        boolean isExit = jedisCore.isExist("mainStarInfo");//判断缓存是否有明星穿搭的轮播图信息
+        if(isExit){//如果缓存中存在
+            return Rutil.Ok(jedisCore.getVal("mainStarInfo"));
+        }else {//缓存中不存在，去数据库中查询并添加到缓存中
+            tStarService.getMainStarInfo();
+            return Rutil.Ok();
+        }
     }
 
     /**
@@ -56,13 +63,13 @@ public class StarShowController {
         return null;
     }
 
-    /**
-     * @Author starzyn
-     * @Description 点击我喜欢根据明星风格id来给该明星风格添加热度
-     * @Date 10:20 2020/6/25
-     * @Param [id]
-     * @return com.offway.common.entity.R
-     **/
+   /**
+    * @Author starzyn
+    * @Description 点击我喜欢根据明星风格id来给该明星风格添加热度
+    * @Date 11:36 2020/6/25
+    * @Param [id]
+    * @return com.offway.common.entity.R
+    **/
     @GetMapping("/star/addlike")
     public R addLike(@RequestParam(name = "starStyleId") String id){
         return null;
