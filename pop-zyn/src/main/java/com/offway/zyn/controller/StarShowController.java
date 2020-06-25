@@ -1,11 +1,15 @@
 package com.offway.zyn.controller;
 
+import com.alibaba.fastjson.JSONArray;
 import com.offway.common.entity.R;
+import com.offway.common.entity.TStarStyle;
 import com.offway.common.three.JedisCore;
 import com.offway.common.util.Rutil;
 import com.offway.zyn.service.TStarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 
 /**
@@ -18,8 +22,7 @@ import org.springframework.web.bind.annotation.*;
 public class StarShowController {
     @Autowired
     TStarService tStarService;//明星类的业务层
-    @Autowired
-    JedisCore jedisCore;//redis 核心类，主要用来访问缓存
+
 
     /**
      * @Author starzyn
@@ -29,15 +32,8 @@ public class StarShowController {
      * @return com.offway.common.entity.R
      **/
     @GetMapping("/star/index")
-    public R showMainStar(){
-        boolean isExit = jedisCore.isExist("mainStarInfo");//判断缓存是否有明星穿搭的轮播图信息
-        if(isExit){//如果缓存中存在
-            return Rutil.Ok(jedisCore.getVal("mainStarInfo"));
-        }else {//缓存中不存在，去数据库中查询并添加到缓存中
-//            tStarService.getMainStarInfo();
-
-            return Rutil.Ok();
-        }
+    public R showHotStar(){
+        return tStarService.getHotStyle();
     }
 
     /**
@@ -48,15 +44,8 @@ public class StarShowController {
      * @return com.offway.common.entity.R
      **/
     @GetMapping("/star/listAll")
-    public R showAll(){
-        boolean isExit = jedisCore.isExist("starList");//判断缓存是否有明星穿搭的轮播图信息
-        if(isExit){//如果缓存中存在
-            return Rutil.Ok(jedisCore.getVal("starList"));
-        }else {//缓存中不存在，去数据库中查询并添加到缓存中
-//            tStarService.getMainStarInfo();
-
-            return Rutil.Ok();
-        }
+    public R showAll(@RequestParam(name = "startPage",defaultValue = "1") int startPage,@RequestParam(name = "pageSize",defaultValue = "6")int pageSize){
+        return tStarService.listAll(startPage,pageSize);
     }
 
     /**

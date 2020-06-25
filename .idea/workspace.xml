@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/conf/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/dto/HotStarInf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TStylePhotos.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TStylePhotos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStylePhotosMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStylePhotosMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-lyb/src/test/java/com/offway/poplyb/PopLybApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lyb/src/test/java/com/offway/poplyb/PopLybApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-dyh/src/test/java/com/offway/popdyh/PopDyhApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarShowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/TStarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/TStarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/TStarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/TStarServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +67,9 @@
         <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
   </component>
   <component name="ProjectId" id="1dlLIRxJW8vhnbF6PrMCcS36Cuq" />
   <component name="ProjectLevelVcsManager">
@@ -60,7 +77,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -76,7 +92,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -93,7 +109,7 @@
       <recent name="E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Generrator">
+  <component name="RunManager" selected="Spring Boot.ZynApplication">
     <configuration name="Generrator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.offway.lyb.generator.Generrator" />
       <module name="pop-lyb" />
@@ -156,25 +172,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZynApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="pop-zyn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.offway.zyn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.offway.zyn.ZynApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ZynApplication" />
         <item itemvalue="Application.Generrator" />
         <item itemvalue="Spring Boot.PopLybApplicationTests" />
         <item itemvalue="Application.TestJedis" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -218,6 +239,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="统一返回值&#10;增加redis依赖" />
     <MESSAGE value="增加三个实体类 明星style 明星照片 后台管理员详情&#10;增加RedisKeyConfig 去掉lombook true属性" />
@@ -233,10 +257,11 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="274" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1592999053047" />
-    <state x="443" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1593065474619">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="498" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1593067885224">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="443" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1593065474619" />
+    <state x="498" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1593067885224" />
     <state x="98" y="0" key="CommitChangelistDialog2" timestamp="1593064875892">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -249,38 +274,46 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="412" y="66" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1593004669643" />
-    <state width="1309" height="219" key="GridCell.Tab.0.bottom" timestamp="1593056705391">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1493" height="270" key="GridCell.Tab.0.bottom" timestamp="1593073512414">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1309" height="219" key="GridCell.Tab.0.center" timestamp="1593056705391">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1493" height="270" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593073512414" />
+    <state width="1493" height="270" key="GridCell.Tab.0.center" timestamp="1593073512414">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1309" height="219" key="GridCell.Tab.0.left" timestamp="1593056705391">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1493" height="270" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593073512414" />
+    <state width="1493" height="270" key="GridCell.Tab.0.left" timestamp="1593073512413">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1309" height="219" key="GridCell.Tab.0.right" timestamp="1593056705391">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1493" height="270" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593073512413" />
+    <state width="1493" height="270" key="GridCell.Tab.0.right" timestamp="1593073512414">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1309" height="219" key="GridCell.Tab.1.bottom" timestamp="1593008021443">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1493" height="270" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593073512414" />
+    <state width="1493" height="270" key="GridCell.Tab.1.bottom" timestamp="1593073512414">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1309" height="219" key="GridCell.Tab.1.center" timestamp="1593008021443">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1493" height="270" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593073512414" />
+    <state width="1493" height="270" key="GridCell.Tab.1.center" timestamp="1593073512414">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1309" height="219" key="GridCell.Tab.1.left" timestamp="1593008021443">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1493" height="270" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1593073512414" />
+    <state width="1493" height="270" key="GridCell.Tab.1.left" timestamp="1593073512414">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1309" height="219" key="GridCell.Tab.1.right" timestamp="1593008021443">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1493" height="270" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1593073512414" />
+    <state width="1493" height="270" key="GridCell.Tab.1.right" timestamp="1593073512414">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
+    <state width="1493" height="270" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1593073512414" />
     <state x="128" y="61" key="MergeDialog" timestamp="1593064798642">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -289,10 +322,11 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="323" y="15" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1593064805935" />
-    <state x="67" y="0" key="SettingsEditor" timestamp="1593053200425">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="75" y="0" key="SettingsEditor" timestamp="1593068016647">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="67" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1593053200425" />
+    <state x="75" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1593068016647" />
     <state x="174" y="36" key="Vcs.Push.Dialog.v2" timestamp="1593064904944">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -309,6 +343,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="329" y="115" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1593064855655" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1593069918735">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1593069918735" />
     <state x="402" y="266" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1593058597791">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
