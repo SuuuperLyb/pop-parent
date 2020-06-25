@@ -43,6 +43,19 @@ public class TStore extends Model<TStore> {
      */
     private Integer bId;
 
+    /**
+     * 店铺名称
+     */
+    private String sName;
+
+    public String getsName() {
+        return sName;
+    }
+
+    public void setsName(String sName) {
+        this.sName = sName;
+    }
+
     public Integer getsId() {
         return sId;
     }

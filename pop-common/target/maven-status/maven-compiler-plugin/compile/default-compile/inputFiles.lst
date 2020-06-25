@@ -9,6 +9,7 @@ E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity\TUser.java
 E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity\TGoodimg.java
 E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\mapper\TCommentUserMapper.java
 E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity\TUserDetails.java
+E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\mapper\TUserDiscountMapper.java
 E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\generator\Generrator.java
 E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity\TFirsttype.java
 E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity\TUserlike.java
@@ -39,6 +40,7 @@ E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity\TBrand.java
 E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity\TDiscount.java
 E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity\TStore.java
 E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity\TAdmin.java
+E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity\TUserDiscount.java
 E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\mapper\TAdmindetailMapper.java
 E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\mapper\TUserMapper.java
 E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity\TSectype.java

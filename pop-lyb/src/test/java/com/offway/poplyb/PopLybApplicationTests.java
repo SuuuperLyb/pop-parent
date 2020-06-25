@@ -7,6 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
+@MapperScan("com.offway.Lyb.mapper")
 @MapperScan("com.offway.common.mapper")
 @ComponentScan("com.offway.Lyb.conf")
 @ComponentScan("com.offway.common.conf")

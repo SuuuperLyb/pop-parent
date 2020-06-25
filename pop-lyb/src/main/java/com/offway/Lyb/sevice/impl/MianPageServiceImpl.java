@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.offway.Lyb.mapper.TUserlikeMapper;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 
@@ -18,16 +19,16 @@ import java.util.List;
 public class MianPageServiceImpl implements MainPageService {
 
 
-    @Autowired
+    @Resource
     private TCouponMapper tCouponMapper;
 
-    @Autowired
+    @Resource
     private TGoodsDetailMapper tGoodsDetailMapper;
 
-    @Autowired
+    @Resource
     private TUserlikeMapper tUserlikeMapper;
 
-    @Autowired
+    @Resource
     private TSectypeMapper tSectypeMapper;
 
 

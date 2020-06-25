@@ -13,6 +13,7 @@ com\offway\common\entity\TType.class
 com\offway\common\mapper\TStarMapper.class
 com\offway\common\mapper\TCommentUserMapper.class
 com\offway\common\mapper\TGoodsDetailMapper.class
+com\offway\common\mapper\TUserDiscountMapper.class
 com\offway\common\mapper\TOrderMapper.class
 com\offway\common\entity\R.class
 com\offway\common\entity\TStyle.class
@@ -38,6 +39,7 @@ com\offway\common\type\RcodeType.class
 com\offway\common\entity\TUserDetails.class
 com\offway\common\three\JedisCore.class
 com\offway\common\entity\TShoppingCar.class
+com\offway\common\entity\TUserDiscount.class
 com\offway\common\mapper\TDiscountMapper.class
 com\offway\common\mapper\TTypeMapper.class
 com\offway\common\mapper\TUserMapper.class

@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TUserDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TUserDiscountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TUserDiscountMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStoreMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStoreMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/target/classes/com/offway/common/entity/TStylePhotos.class" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/target/classes/com/offway/common/entity/TStylePhotos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/target/pop-common-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/target/pop-common-0.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/conf/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/conf/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/mapper/xml/TUserlikeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/mapper/xml/TUserlikeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/sevice/impl/MianPageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/sevice/impl/MianPageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-lyb/src/test/java/com/offway/poplyb/PopLybApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lyb/src/test/java/com/offway/poplyb/PopLybApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +98,7 @@
       <recent name="E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Generrator">
+  <component name="RunManager" selected="Spring Boot.PopLybApplicationTests">
     <configuration name="Generrator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.offway.lyb.generator.Generrator" />
       <module name="pop-lyb" />
@@ -157,8 +163,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Generrator" />
         <item itemvalue="Spring Boot.PopLybApplicationTests" />
+        <item itemvalue="Application.Generrator" />
         <item itemvalue="Application.TestJedis" />
       </list>
     </recent_temporary>
@@ -218,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593065649480</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="增加用户折扣表">
+      <created>1593068130013</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593068130013</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,25 +242,26 @@
     <MESSAGE value="增加三个实体类 明星style 明星照片 后台管理员详情&#10;增加RedisKeyConfig 去掉lombook true属性" />
     <MESSAGE value="修改一些公共模块错误 轮播图添加排序字段" />
     <MESSAGE value="明星style 增加图片url字段" />
-    <option name="LAST_COMMIT_MESSAGE" value="明星style 增加图片url字段" />
+    <MESSAGE value="增加用户折扣表" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加用户折扣表" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="174" y="0" key="#Project_Structure" timestamp="1593065611477">
+    <state x="174" y="0" key="#Project_Structure" timestamp="1593068700188">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="174" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1593065611477" />
+    <state x="174" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1593068700188" />
     <state x="274" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592999053047">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="274" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1592999053047" />
-    <state x="443" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1593065474619">
+    <state x="443" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1593069177979">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="443" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1593065474619" />
-    <state x="98" y="0" key="CommitChangelistDialog2" timestamp="1593065648059">
+    <state x="443" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1593069177979" />
+    <state x="98" y="0" key="CommitChangelistDialog2" timestamp="1593068128476">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="98" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1593065648059" />
+    <state x="98" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1593068128476" />
     <state x="128" y="60" key="DiffContextDialog" timestamp="1593002186994">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -256,38 +270,38 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="412" y="66" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1593004669643" />
-    <state width="1309" height="219" key="GridCell.Tab.0.bottom" timestamp="1593056705391">
+    <state width="1309" height="320" key="GridCell.Tab.0.bottom" timestamp="1593068831184">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1309" height="219" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1309" height="219" key="GridCell.Tab.0.center" timestamp="1593056705391">
+    <state width="1309" height="320" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593068831184" />
+    <state width="1309" height="320" key="GridCell.Tab.0.center" timestamp="1593068831184">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1309" height="219" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1309" height="219" key="GridCell.Tab.0.left" timestamp="1593056705391">
+    <state width="1309" height="320" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593068831184" />
+    <state width="1309" height="320" key="GridCell.Tab.0.left" timestamp="1593068831184">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1309" height="219" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1309" height="219" key="GridCell.Tab.0.right" timestamp="1593056705391">
+    <state width="1309" height="320" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593068831184" />
+    <state width="1309" height="320" key="GridCell.Tab.0.right" timestamp="1593068831184">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1309" height="219" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1309" height="219" key="GridCell.Tab.1.bottom" timestamp="1593008021443">
+    <state width="1309" height="320" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593068831184" />
+    <state width="1309" height="320" key="GridCell.Tab.1.bottom" timestamp="1593068831184">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1309" height="219" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1309" height="219" key="GridCell.Tab.1.center" timestamp="1593008021443">
+    <state width="1309" height="320" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593068831184" />
+    <state width="1309" height="320" key="GridCell.Tab.1.center" timestamp="1593068831184">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1309" height="219" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1309" height="219" key="GridCell.Tab.1.left" timestamp="1593008021443">
+    <state width="1309" height="320" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1593068831184" />
+    <state width="1309" height="320" key="GridCell.Tab.1.left" timestamp="1593068831184">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1309" height="219" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1309" height="219" key="GridCell.Tab.1.right" timestamp="1593008021443">
+    <state width="1309" height="320" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1593068831184" />
+    <state width="1309" height="320" key="GridCell.Tab.1.right" timestamp="1593068831184">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1309" height="219" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
+    <state width="1309" height="320" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1593068831184" />
     <state x="128" y="61" key="MergeDialog" timestamp="1593064798642">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -300,10 +314,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="67" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1593053200425" />
-    <state x="174" y="36" key="Vcs.Push.Dialog.v2" timestamp="1593065662908">
+    <state x="174" y="36" key="Vcs.Push.Dialog.v2" timestamp="1593068173949">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="174" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1593065662908" />
+    <state x="174" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1593068173949" />
     <state x="299" y="151" key="com.intellij.ide.util.TipDialog" timestamp="1593050310513">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
