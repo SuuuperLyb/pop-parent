@@ -7,11 +7,12 @@
         <id column="photo_id" property="photoId" />
         <result column="create_time" property="createTime" />
         <result column="stat_style_id" property="statStyleId" />
+        <result column="starimg_url" property="starimgUrl" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        photo_id, create_time, stat_style_id
+        photo_id, create_time, stat_style_id,starimg_url
     </sql>
 
 </mapper>
