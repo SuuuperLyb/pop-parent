@@ -31,6 +31,8 @@ public class TGoodimg extends Model<TGoodimg> {
     /**
      * 是否主图 
      */
+
+    //1 为主图 0不是主图
     private Integer iMainimg;
 
     /**

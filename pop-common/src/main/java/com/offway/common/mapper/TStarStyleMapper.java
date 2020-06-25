@@ -1,6 +1,6 @@
 package com.offway.common.mapper;
 
-import com.offway.lyb.entity.TStarStyle;
+import com.offway.common.entity.TStarStyle;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

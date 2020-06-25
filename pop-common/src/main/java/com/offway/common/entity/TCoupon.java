@@ -43,6 +43,19 @@ public class TCoupon extends Model<TCoupon> {
      */
     private Integer sId;
 
+    /**
+     * 轮播图排序
+     */
+    private Integer cSort;
+
+    public Integer getcSort() {
+        return cSort;
+    }
+
+    public void setcSort(Integer cSort) {
+        this.cSort = cSort;
+    }
+
     public Integer getcId() {
         return cId;
     }

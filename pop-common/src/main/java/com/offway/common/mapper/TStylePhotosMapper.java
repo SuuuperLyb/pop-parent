@@ -1,6 +1,6 @@
 package com.offway.common.mapper;
 
-import com.offway.lyb.entity.TStylePhotos;
+import com.offway.common.entity.TStylePhotos;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
