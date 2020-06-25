@@ -19,20 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f13b0ff-5cae-4907-9fca-028e7ae5a88f" name="Default Changelist" comment="张亚男第二测试提交">
-      <change afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarShowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/TStarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/TStarServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="9f13b0ff-5cae-4907-9fca-028e7ae5a88f" name="Default Changelist" comment="三">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TAdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TAdminMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/target/classes/com/offway/common/mapper/TAdminMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/target/classes/com/offway/common/mapper/TAdminMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/target/classes/com/offway/common/three/JedisCore.class" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/target/classes/com/offway/common/three/JedisCore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/TestService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/TestServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/test/java/com/offway/zyn/ZynApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/test/java/com/offway/zyn/ZynApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/test/java/com/offway/zyn/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarShowController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592994652923</updated>
-      <workItem from="1593045473461" duration="6793000" />
+      <workItem from="1593045473461" duration="7395000" />
     </task>
     <task id="LOCAL-00001" summary="张亚男第二测试提交">
       <created>1593045630006</created>
@@ -182,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593045630006</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="三">
+      <created>1593052802841</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593052802841</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +198,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="张亚男第二测试提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="张亚男第二测试提交" />
+    <MESSAGE value="三" />
+    <option name="LAST_COMMIT_MESSAGE" value="三" />
   </component>
   <component name="WindowStateProjectService">
     <state x="174" y="0" key="#Project_Structure" timestamp="1593001099003">
