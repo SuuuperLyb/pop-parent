@@ -1,13 +1,13 @@
 package com.offway.zyn.controller;
 
-import com.offway.common.entity.TAdmin;
+import com.offway.common.three.JedisCore;
 import com.offway.zyn.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
+import javax.annotation.Resource;
+
 
 /**
  * @author starzyn
@@ -21,8 +21,12 @@ public class TestController {
     @Autowired
     TestService ts;
 
+    JedisCore js = new JedisCore("175.24.95.117",6379,"147258");
+
     @RequestMapping("/test")
-    public List<TAdmin> test(){
-        return ts.queryAll();
+    public String test(){
+        String name = js.getVal("name");
+        System.out.println(name);
+        return name;
     }
 }

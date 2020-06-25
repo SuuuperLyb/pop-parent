@@ -11,5 +11,4 @@ public class ZynApplication {
     public static void main(String[] args) {
         SpringApplication.run(ZynApplication.class, args);
     }
-
 }

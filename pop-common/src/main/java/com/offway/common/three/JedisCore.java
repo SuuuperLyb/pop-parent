@@ -7,8 +7,6 @@ public class JedisCore {
 
     private Jedis jedis;
 
-
-
     public JedisCore(String host,int port,String password){
         JedisPool jedisPool = new JedisPool(host,port);
         jedis = jedisPool.getResource();
