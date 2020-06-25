@@ -19,82 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="保存">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TAdmin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TAdmindetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TBrand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TCommentUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TCoupon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TDiscount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TFirsttype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TGoodimg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TGoodsDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TSectype.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TShoppingCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TStar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TStarStyle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TStyle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TStylePhotos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TUserAddress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TUserDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TUserlike.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TAdminMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TAdmindetailMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TBrandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TCommentUserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TCouponMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TDiscountMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TFirsttypeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TGoodimgMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TGoodsDetailMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TOrderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TSectypeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TShoppingCarMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TStarMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TStarStyleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TStoreMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TStyleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TStylePhotosMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TTypeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TUserAddressMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TUserDetailsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TUserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/TUserlikeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TAdminMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TAdmindetailMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TBrandMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TCommentUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TCouponMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TDiscountMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TFirsttypeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TGoodimgMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TGoodsDetailMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TOrderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TSectypeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TShoppingCarMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStarMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStarStyleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStoreMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStyleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TStylePhotosMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TTypeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TUserAddressMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TUserDetailsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TUserlikeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/mapper/TUserlikeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/mapper/TUserlikeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarShowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/dto/HotStarInf.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/dto/HotStarInf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/TStarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/TStarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/TStarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/TStarServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="修改了明星表和风格表，增加了两者关联的表" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pop-lyb/src/main/java/com/offway/Lyb/conf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -155,11 +80,11 @@
       <recent name="com.offway.common.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\pop-parent\pop-common\src\main\java\com\offway\common" />
+      <recent name="E:\IdeaProjects\pop-parent\pop-common\src\main\java\com\offway\common\entity" />
       <recent name="E:\ideaworkspace1\pop-lyb\src\main\java\com\offway\Lyb\conf" />
       <recent name="E:\ideaworkspace1\pop-lyb\src\main\java\com\offway\Lyb\mapper\xml" />
       <recent name="E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\mapper\xml" />
-      <recent name="E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\mapper" />
-      <recent name="E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\entity" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Generrator (1)">
@@ -271,7 +196,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592994652923</updated>
-      <workItem from="1593075886836" duration="319000" />
+      <workItem from="1593075886836" duration="1591000" />
     </task>
     <task id="LOCAL-00001" summary="统一返回值&#10;增加redis依赖">
       <created>1593001680160</created>
@@ -308,13 +233,29 @@
       <option name="project" value="LOCAL" />
       <updated>1593073969015</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改了明星表和风格表，增加了两者关联的表">
+      <created>1593076327766</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593076327766</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
@@ -322,7 +263,8 @@
     <MESSAGE value="增加三个实体类 明星style 明星照片 后台管理员详情&#10;增加RedisKeyConfig 去掉lombook true属性" />
     <MESSAGE value="修改一些公共模块错误 轮播图添加排序字段" />
     <MESSAGE value="保存" />
-    <option name="LAST_COMMIT_MESSAGE" value="保存" />
+    <MESSAGE value="修改了明星表和风格表，增加了两者关联的表" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了明星表和风格表，增加了两者关联的表" />
   </component>
   <component name="WindowStateProjectService">
     <state x="174" y="0" key="#Project_Structure" timestamp="1593065611477">
@@ -408,10 +350,11 @@
     </state>
     <state x="67" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1593053200425" />
     <state x="75" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1593068016647" />
-    <state x="174" y="36" key="Vcs.Push.Dialog.v2" timestamp="1593064904944">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="196" y="41" key="Vcs.Push.Dialog.v2" timestamp="1593076347258">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="174" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1593064904944" />
+    <state x="196" y="41" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1593076347258" />
     <state x="299" y="151" key="com.intellij.ide.util.TipDialog" timestamp="1593050310513">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -420,10 +363,11 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="441" y="266" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1593064847574" />
-    <state x="329" y="115" key="git4idea.merge.GitPullDialog" timestamp="1593064855655">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="370" y="130" key="git4idea.merge.GitPullDialog" timestamp="1593077464714">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="329" y="115" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1593064855655" />
+    <state x="370" y="130" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1593077464714" />
     <state x="421" y="30" width="733" height="783" key="new project wizard" timestamp="1593075299223">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
