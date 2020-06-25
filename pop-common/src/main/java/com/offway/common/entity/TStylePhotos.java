@@ -33,6 +33,18 @@ public class TStylePhotos extends Model<TStylePhotos> {
      * 对应的明星风格id
      */
     private Integer statStyleId;
+    /**
+     * 明星style图片url
+     */
+    private String starimgUrl;
+
+    public String getStarimgUrl() {
+        return starimgUrl;
+    }
+
+    public void setStarimgUrl(String starimgUrl) {
+        this.starimgUrl = starimgUrl;
+    }
 
     public Integer getPhotoId() {
         return photoId;
