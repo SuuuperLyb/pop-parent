@@ -55,6 +55,11 @@ public class TGoodsDetail extends Model<TGoodsDetail> {
     private Double tGoodsCurPrice;
 
     /**
+     * 商品库存
+     */
+    private Integer tGoodsStock;
+
+    /**
      * 商品销量
      */
     private Integer tGoodsSales;
@@ -137,6 +142,13 @@ public class TGoodsDetail extends Model<TGoodsDetail> {
         return tGoodsSales;
     }
 
+    public Integer gettGoodsStock() {
+        return tGoodsStock;
+    }
+    public void settGoodsStock(Integer tGoodsStock) {
+        this.tGoodsStock = tGoodsStock;
+    }
+
     public void settGoodsSales(Integer tGoodsSales) {
         this.tGoodsSales = tGoodsSales;
     }
@@ -191,6 +203,7 @@ public class TGoodsDetail extends Model<TGoodsDetail> {
             ", tGoodsPrice=" + tGoodsPrice +
             ", tGoodsDiscount=" + tGoodsDiscount +
             ", tGoodsCurPrice=" + tGoodsCurPrice +
+            ", tGoodsStock=" + tGoodsStock +
             ", tGoodsSales=" + tGoodsSales +
             ", tStoreId=" + tStoreId +
             ", tGoodsSort=" + tGoodsSort +

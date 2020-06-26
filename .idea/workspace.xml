@@ -5,27 +5,95 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/conf/MybatisPlusConfig.java" afterDir="false" />
+    <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="修改了明星表和风格表，增加了两者关联的表">
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/conf/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/controller/TShoppingCarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/dto/DelManyOrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/dto/DelOneOrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/dto/DeleteShoppingCarDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/dto/DeleteUserlikeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/dto/DelmanyDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/dto/UpdateGoodsNumDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/entity/ShoppingCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/entity/TUserlikeGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/entity/TUserlikeStarStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/entity/TUserlikeStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/mapper/LikeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/mapper/ShoppingCarMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/mapper/xml/LikeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/mapper/xml/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/mapper/xml/ShoppingCarMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/service/TShoppingCarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/service/impl/TShoppingCarServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/pop-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/pop-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-dyh/pop-dyh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-dyh/pop-dyh.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-gxb/pop-gxb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-gxb/pop-gxb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-hqs/pop-hqs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-hqs/pop-hqs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-lxm/pop-lxm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lxm/pop-lxm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-parent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-setup/pop-setup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-setup/pop-setup.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zgy/pop-zgy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zgy/pop-zgy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/pop-zyn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/pop-zyn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/dto/HotStarInf.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/dto/HotStarInf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/TStarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/TStarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TGoodsDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/entity/TGoodsDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TGoodsDetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/mapper/xml/TGoodsDetailMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/controller/TOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/controller/TOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/controller/TUserlikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/controller/TUserlikeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/service/TOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/service/TOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/service/TUserlikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/service/TUserlikeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/service/impl/TOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/service/impl/TOrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/service/impl/TUserlikeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lxm/src/main/java/com/offway/lxm/service/impl/TUserlikeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-lxm/src/test/java/com/offway/lxm/PopLxmApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lxm/src/test/java/com/offway/lxm/PopLxmApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="175.24.95.117" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="175.24.95.117" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="175.24.95.117" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_fashion: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="175.24.95.117" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_fashion: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="t_goodimg: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="175.24.95.117" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_fashion: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="t_goods_detail: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="175.24.95.117" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_fashion: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="t_order: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,6 +137,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -88,6 +158,18 @@
       <recent name="E:\ideaworkspace1\pop-lyb\src\main\java\com\offway\Lyb\mapper\xml" />
       <recent name="E:\ideaworkspace1\pop-common\src\main\java\com\offway\common\mapper\xml" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ZynApplication">
     <configuration name="PopSetupApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -119,6 +201,27 @@
         <item itemvalue="Spring Boot.ZynApplication" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.11680328" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@49206e85" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@49206e85" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2b21052f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -185,12 +288,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="统一返回值&#10;增加redis依赖" />

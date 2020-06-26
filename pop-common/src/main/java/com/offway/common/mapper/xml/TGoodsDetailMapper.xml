@@ -11,6 +11,7 @@
         <result column="t_goods_price" property="tGoodsPrice" />
         <result column="t_goods_discount" property="tGoodsDiscount" />
         <result column="t_goods_cur_price" property="tGoodsCurPrice" />
+        <result column="t_goods_stock" property="tGoodsStock" />
         <result column="t_goods_sales" property="tGoodsSales" />
         <result column="t_store_id" property="tStoreId" />
         <result column="t_goods_sort" property="tGoodsSort" />
@@ -21,7 +22,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        t_goods_id, t_goods_name, t_goods_engname, t_goods_size, t_goods_price, t_goods_discount, t_goods_cur_price, t_goods_sales, t_store_id, t_goods_sort, t_goods_rank, t_sectype_id, t_goods_isvalid
+        t_goods_id, t_goods_name, t_goods_engname, t_goods_size, t_goods_price, t_goods_discount, t_goods_cur_price, t_goods_stock, t_goods_sales, t_store_id, t_goods_sort, t_goods_rank, t_sectype_id, t_goods_isvalid
     </sql>
 
 </mapper>
