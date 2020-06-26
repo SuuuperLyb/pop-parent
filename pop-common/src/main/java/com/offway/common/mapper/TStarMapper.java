@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * </p>
  *
  * @author LYB
- * @since 2020-06-23
+ * @since 2020-06-25
  */
 public interface TStarMapper extends BaseMapper<TStar> {
 

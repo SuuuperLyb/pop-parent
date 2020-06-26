@@ -1,10 +1,11 @@
 package com.offway.common.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.extension.activerecord.Model;
-import java.time.LocalDate;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.extension.activerecord.Model;
+
 import java.io.Serializable;
+import java.time.LocalDate;
 
 /**
  * <p>
@@ -33,18 +34,11 @@ public class TStylePhotos extends Model<TStylePhotos> {
      * 对应的明星风格id
      */
     private Integer statStyleId;
+
     /**
-     * 明星style图片url
+     * 明星style 图片url
      */
     private String starimgUrl;
-
-    public String getStarimgUrl() {
-        return starimgUrl;
-    }
-
-    public void setStarimgUrl(String starimgUrl) {
-        this.starimgUrl = starimgUrl;
-    }
 
     public Integer getPhotoId() {
         return photoId;
@@ -67,6 +61,13 @@ public class TStylePhotos extends Model<TStylePhotos> {
     public void setStatStyleId(Integer statStyleId) {
         this.statStyleId = statStyleId;
     }
+    public String getStarimgUrl() {
+        return starimgUrl;
+    }
+
+    public void setStarimgUrl(String starimgUrl) {
+        this.starimgUrl = starimgUrl;
+    }
 
     @Override
     protected Serializable pkVal() {
@@ -79,6 +80,7 @@ public class TStylePhotos extends Model<TStylePhotos> {
             "photoId=" + photoId +
             ", createTime=" + createTime +
             ", statStyleId=" + statStyleId +
+            ", starimgUrl=" + starimgUrl +
         "}";
     }
 }

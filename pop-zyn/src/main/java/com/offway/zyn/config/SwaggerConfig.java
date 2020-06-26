@@ -32,10 +32,10 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("标题")
-                .description("描述")
+                .title("前端展示模块")
+                .description("By 张亚男")
                 .termsOfServiceUrl("http://localhost:8989/")
-                .contact("lxm@qq.com")
+                .contact("starzyn@qq.com")
                 .version("1.0")
                 .build();
     }

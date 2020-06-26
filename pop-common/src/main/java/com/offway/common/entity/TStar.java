@@ -1,8 +1,9 @@
 package com.offway.common.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.extension.activerecord.Model;
+
 import java.io.Serializable;
 
 /**
@@ -11,7 +12,7 @@ import java.io.Serializable;
  * </p>
  *
  * @author LYB
- * @since 2020-06-23
+ * @since 2020-06-25
  */
 public class TStar extends Model<TStar> {
 
@@ -32,11 +33,6 @@ public class TStar extends Model<TStar> {
      * 明星穿搭描述
      */
     private String starWeardescription;
-
-    /**
-     * 风格id
-     */
-    private Integer styleId;
 
     public Integer getId() {
         return id;
@@ -59,13 +55,6 @@ public class TStar extends Model<TStar> {
     public void setStarWeardescription(String starWeardescription) {
         this.starWeardescription = starWeardescription;
     }
-    public Integer getStyleId() {
-        return styleId;
-    }
-
-    public void setStyleId(Integer styleId) {
-        this.styleId = styleId;
-    }
 
     @Override
     protected Serializable pkVal() {
@@ -78,7 +67,6 @@ public class TStar extends Model<TStar> {
             "id=" + id +
             ", starName=" + starName +
             ", starWeardescription=" + starWeardescription +
-            ", styleId=" + styleId +
         "}";
     }
 }

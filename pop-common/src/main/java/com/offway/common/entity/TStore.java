@@ -1,8 +1,9 @@
 package com.offway.common.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.extension.activerecord.Model;
+
 import java.io.Serializable;
 
 /**
@@ -11,7 +12,7 @@ import java.io.Serializable;
  * </p>
  *
  * @author LYB
- * @since 2020-06-23
+ * @since 2020-06-25
  */
 public class TStore extends Model<TStore> {
 
@@ -48,14 +49,6 @@ public class TStore extends Model<TStore> {
      */
     private String sName;
 
-    public String getsName() {
-        return sName;
-    }
-
-    public void setsName(String sName) {
-        this.sName = sName;
-    }
-
     public Integer getsId() {
         return sId;
     }
@@ -91,6 +84,13 @@ public class TStore extends Model<TStore> {
     public void setbId(Integer bId) {
         this.bId = bId;
     }
+    public String getsName() {
+        return sName;
+    }
+
+    public void setsName(String sName) {
+        this.sName = sName;
+    }
 
     @Override
     protected Serializable pkVal() {
@@ -105,6 +105,7 @@ public class TStore extends Model<TStore> {
             ", sDescribe=" + sDescribe +
             ", sImg=" + sImg +
             ", bId=" + bId +
+            ", sName=" + sName +
         "}";
     }
 }

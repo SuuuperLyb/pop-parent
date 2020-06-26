@@ -14,7 +14,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        c_id, c_name, c_img, c_content, s_id,c_sort
+        c_id, c_name, c_img, c_content, s_id, c_sort
     </sql>
 
 </mapper>

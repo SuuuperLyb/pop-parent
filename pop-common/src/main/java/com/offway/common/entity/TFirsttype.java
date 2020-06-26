@@ -1,8 +1,9 @@
 package com.offway.common.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.extension.activerecord.Model;
+
 import java.io.Serializable;
 
 /**
@@ -11,7 +12,7 @@ import java.io.Serializable;
  * </p>
  *
  * @author LYB
- * @since 2020-06-23
+ * @since 2020-06-25
  */
 public class TFirsttype extends Model<TFirsttype> {
 

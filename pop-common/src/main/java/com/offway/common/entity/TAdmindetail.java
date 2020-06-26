@@ -1,6 +1,7 @@
 package com.offway.common.entity;
 
 import com.baomidou.mybatisplus.extension.activerecord.Model;
+
 import java.io.Serializable;
 
 /**

@@ -1,8 +1,9 @@
 package com.offway.common.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.extension.activerecord.Model;
+
 import java.io.Serializable;
 
 /**
@@ -11,7 +12,7 @@ import java.io.Serializable;
  * </p>
  *
  * @author LYB
- * @since 2020-06-23
+ * @since 2020-06-25
  */
 public class TCoupon extends Model<TCoupon> {
 
@@ -43,18 +44,7 @@ public class TCoupon extends Model<TCoupon> {
      */
     private Integer sId;
 
-    /**
-     * 轮播图排序
-     */
     private Integer cSort;
-
-    public Integer getcSort() {
-        return cSort;
-    }
-
-    public void setcSort(Integer cSort) {
-        this.cSort = cSort;
-    }
 
     public Integer getcId() {
         return cId;
@@ -91,6 +81,13 @@ public class TCoupon extends Model<TCoupon> {
     public void setsId(Integer sId) {
         this.sId = sId;
     }
+    public Integer getcSort() {
+        return cSort;
+    }
+
+    public void setcSort(Integer cSort) {
+        this.cSort = cSort;
+    }
 
     @Override
     protected Serializable pkVal() {
@@ -105,6 +102,7 @@ public class TCoupon extends Model<TCoupon> {
             ", cImg=" + cImg +
             ", cContent=" + cContent +
             ", sId=" + sId +
+            ", cSort=" + cSort +
         "}";
     }
 }

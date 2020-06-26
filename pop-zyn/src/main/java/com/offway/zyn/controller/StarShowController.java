@@ -1,7 +1,6 @@
 package com.offway.zyn.controller;
 
 import com.offway.common.entity.R;
-import com.offway.common.three.JedisCore;
 import com.offway.zyn.service.TStarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -17,8 +16,7 @@ import org.springframework.web.bind.annotation.*;
 public class StarShowController {
     @Autowired
     TStarService tStarService;//明星类的业务层
-    @Autowired
-    JedisCore jedisCore;//redis 核心类，主要用来访问缓存
+
 
     /**
      * @Author starzyn
@@ -28,8 +26,8 @@ public class StarShowController {
      * @return com.offway.common.entity.R
      **/
     @GetMapping("/star/index")
-    public R showMainStar(){
-        return null;
+    public R showHotStar(){
+        return tStarService.getHotStyle();
     }
 
     /**
@@ -40,8 +38,8 @@ public class StarShowController {
      * @return com.offway.common.entity.R
      **/
     @GetMapping("/star/listAll")
-    public R showAll(){
-        return null;
+    public R showAll(@RequestParam(name = "startPage",defaultValue = "1") int startPage,@RequestParam(name = "pageSize",defaultValue = "6")int pageSize){
+        return tStarService.listAll(startPage,pageSize);
     }
 
     /**
@@ -56,13 +54,13 @@ public class StarShowController {
         return null;
     }
 
-    /**
-     * @Author starzyn
-     * @Description 点击我喜欢根据明星风格id来给该明星风格添加热度
-     * @Date 10:20 2020/6/25
-     * @Param [id]
-     * @return com.offway.common.entity.R
-     **/
+   /**
+    * @Author starzyn
+    * @Description 点击我喜欢根据明星风格id来给该明星风格添加热度
+    * @Date 11:36 2020/6/25
+    * @Param [id]
+    * @return com.offway.common.entity.R
+    **/
     @GetMapping("/star/addlike")
     public R addLike(@RequestParam(name = "starStyleId") String id){
         return null;

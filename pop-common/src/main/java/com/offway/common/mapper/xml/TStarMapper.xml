@@ -7,12 +7,11 @@
         <id column="id" property="id" />
         <result column="star_name" property="starName" />
         <result column="star_weardescription" property="starWeardescription" />
-        <result column="style_id" property="styleId" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, star_name, star_weardescription, style_id
+        id, star_name, star_weardescription
     </sql>
 
 </mapper>

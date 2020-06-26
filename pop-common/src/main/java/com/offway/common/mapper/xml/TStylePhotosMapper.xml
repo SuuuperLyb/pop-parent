@@ -3,7 +3,7 @@
 <mapper namespace="com.offway.common.mapper.TStylePhotosMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.offway.lyb.entity.TStylePhotos">
+    <resultMap id="BaseResultMap" type="com.offway.common.entity.TStylePhotos">
         <id column="photo_id" property="photoId" />
         <result column="create_time" property="createTime" />
         <result column="stat_style_id" property="statStyleId" />
@@ -12,7 +12,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        photo_id, create_time, stat_style_id,starimg_url
+        photo_id, create_time, stat_style_id, starimg_url
     </sql>
 
 </mapper>
