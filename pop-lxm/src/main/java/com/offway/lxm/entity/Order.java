@@ -1,7 +1,7 @@
 package com.offway.lxm.entity;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.time.LocalDate;
 
@@ -10,6 +10,7 @@ import java.time.LocalDate;
  * @Date 2020/6/26 0026
  */
 public class Order {
+
     /**
      * 主键id
      */
@@ -82,4 +83,124 @@ public class Order {
      * 订单状态(存在1,删除0)
      */
     private Integer oStatus;
+
+    public Integer getoId() {
+        return oId;
+    }
+
+    public void setoId(Integer oId) {
+        this.oId = oId;
+    }
+
+    public Integer getgId() {
+        return gId;
+    }
+
+    public void setgId(Integer gId) {
+        this.gId = gId;
+    }
+
+    public String getiImgurl() {
+        return iImgurl;
+    }
+
+    public void setiImgurl(String iImgurl) {
+        this.iImgurl = iImgurl;
+    }
+
+    public String gettGoodsName() {
+        return tGoodsName;
+    }
+
+    public void settGoodsName(String tGoodsName) {
+        this.tGoodsName = tGoodsName;
+    }
+
+    public Double gettGoodsCurPrice() {
+        return tGoodsCurPrice;
+    }
+
+    public void settGoodsCurPrice(Double tGoodsCurPrice) {
+        this.tGoodsCurPrice = tGoodsCurPrice;
+    }
+
+    public Integer getUdId() {
+        return udId;
+    }
+
+    public void setUdId(Integer udId) {
+        this.udId = udId;
+    }
+
+    public Integer getcId() {
+        return cId;
+    }
+
+    public void setcId(Integer cId) {
+        this.cId = cId;
+    }
+
+    public String getoNum() {
+        return oNum;
+    }
+
+    public void setoNum(String oNum) {
+        this.oNum = oNum;
+    }
+
+    public Integer getoType() {
+        return oType;
+    }
+
+    public void setoType(Integer oType) {
+        this.oType = oType;
+    }
+
+    public Integer getoGoodsNum() {
+        return oGoodsNum;
+    }
+
+    public void setoGoodsNum(Integer oGoodsNum) {
+        this.oGoodsNum = oGoodsNum;
+    }
+
+    public LocalDate getoCreateTime() {
+        return oCreateTime;
+    }
+
+    public void setoCreateTime(LocalDate oCreateTime) {
+        this.oCreateTime = oCreateTime;
+    }
+
+    public LocalDate getoFinalTime() {
+        return oFinalTime;
+    }
+
+    public void setoFinalTime(LocalDate oFinalTime) {
+        this.oFinalTime = oFinalTime;
+    }
+
+    public Double getoTotalMoney() {
+        return oTotalMoney;
+    }
+
+    public void setoTotalMoney(Double oTotalMoney) {
+        this.oTotalMoney = oTotalMoney;
+    }
+
+    public Double getoActualMoney() {
+        return oActualMoney;
+    }
+
+    public void setoActualMoney(Double oActualMoney) {
+        this.oActualMoney = oActualMoney;
+    }
+
+    public Integer getoStatus() {
+        return oStatus;
+    }
+
+    public void setoStatus(Integer oStatus) {
+        this.oStatus = oStatus;
+    }
 }

@@ -10,8 +10,9 @@ import com.offway.common.util.Rutil;
 import com.offway.lxm.dto.DelManyOrderDto;
 import com.offway.lxm.dto.DelOneOrderDto;
 import com.offway.lxm.entity.Order;
-import com.offway.lxm.mapper.OrderMapper;
+import com.offway.lxm.dao.OrderMapper;
 import com.offway.lxm.service.TOrderService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -26,7 +27,7 @@ import java.util.List;
 public class TOrderServiceImpl implements TOrderService {
     @Resource
     private JedisCore jedisCore;
-    @Resource
+    @Autowired(required = false)
     private OrderMapper orderMapper;
     @Resource
     private TOrderMapper tOrderMapper;
@@ -37,7 +38,7 @@ public class TOrderServiceImpl implements TOrderService {
      */
     @Override
     public R getall(String token) {
-        if(!jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)){
+        if(jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)==false){
             return Rutil.err("请登录");
         }else {
             TUser user = JSON.parseObject(jedisCore.getVal(RedisKeyConfig.LOGIN_USER+token), TUser.class);
@@ -53,7 +54,7 @@ public class TOrderServiceImpl implements TOrderService {
      */
     @Override
     public R nopay(String token) {
-        if(!jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)){
+        if(jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)==false){
             return Rutil.err("请登录");
         }else {
             TUser user = JSON.parseObject(jedisCore.getVal(RedisKeyConfig.LOGIN_USER+token), TUser.class);
@@ -69,7 +70,7 @@ public class TOrderServiceImpl implements TOrderService {
      */
     @Override
     public R noshipment(String token) {
-        if(!jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)){
+        if(jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)==false){
             return Rutil.err("请登录");
         }else {
             TUser user = JSON.parseObject(jedisCore.getVal(RedisKeyConfig.LOGIN_USER+token), TUser.class);
@@ -85,7 +86,7 @@ public class TOrderServiceImpl implements TOrderService {
      */
     @Override
     public R noreceive(String token) {
-        if(!jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)){
+        if(jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)==false){
             return Rutil.err("请登录");
         }else {
             TUser user = JSON.parseObject(jedisCore.getVal(RedisKeyConfig.LOGIN_USER+token), TUser.class);
@@ -101,7 +102,7 @@ public class TOrderServiceImpl implements TOrderService {
      */
     @Override
     public R nocomment(String token) {
-        if(!jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)){
+        if(jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)==false){
             return Rutil.err("请登录");
         }else {
             TUser user = JSON.parseObject(jedisCore.getVal(RedisKeyConfig.LOGIN_USER+token), TUser.class);
@@ -117,7 +118,7 @@ public class TOrderServiceImpl implements TOrderService {
      */
     @Override
     public R delone(DelOneOrderDto delOneOrderDto) {
-        if(!jedisCore.isExist(RedisKeyConfig.LOGIN_USER+delOneOrderDto.getToken())){
+        if(jedisCore.isExist(RedisKeyConfig.LOGIN_USER+delOneOrderDto.getToken())==false){
             return Rutil.err("请登录");
         }else {
             if(tOrderMapper.deleteById(delOneOrderDto.getoId())>0){
@@ -135,7 +136,7 @@ public class TOrderServiceImpl implements TOrderService {
      */
     @Override
     public R delmany(DelManyOrderDto delManyOrderDto) {
-        if(!jedisCore.isExist(RedisKeyConfig.LOGIN_USER+delManyOrderDto.getToken())){
+        if(jedisCore.isExist(RedisKeyConfig.LOGIN_USER+delManyOrderDto.getToken())==false){
             return Rutil.err("请登录");
         }else {
             if(tOrderMapper.deleteBatchIds(delManyOrderDto.getoIdlist())>0){

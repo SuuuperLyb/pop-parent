@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.offway.lxm.mapper.ShoppingCarMapper">
+<mapper namespace="com.offway.lxm.dao.ShoppingCarMapper">
 
     <!-- 通用查询映射结果 -->
     <resultMap id="getallResultMap" type="com.offway.lxm.entity.ShoppingCar">
         <id column="sc_id" property="scId" />
         <result column="sc_allmoney" property="scAllmoney" />
         <result column="sc_goodsnum" property="scGoodsnum" />
-        <result column="goods_id" property="goodsId" />
+        <result column="goods_id" property="tGoodsId" />
         <result column="t_goods_name" property="tGoodsName" />
         <result column="t_goods_price" property="tGoodsPrice" />
         <result column="t_goods_discount" property="tGoodsDiscount" />
@@ -30,9 +30,10 @@
         update t_shopping_car set sc_goodsnum=#{gNum} where sc_id=#{scId}
     </update>
 
-<!--    <select id="selectgoodsCount" parameterType="int" resultType="int">-->
-<!--        select from t_shopping_car c-->
-<!--        inner join t_goods_detail d on d.t_goods_id=c.goods_id-->
-<!--        where c.sc_id=#{scId}-->
-<!--    </select>-->
+    <!--查询当前该商品的商品库存-->
+    <select id="selectgoodsCount" parameterType="int" resultType="int">
+        select d.t_goods_stock from t_shopping_car c
+        inner join t_goods_detail d on d.t_goods_id=c.goods_id
+        where c.sc_id=#{scId}
+    </select>
 </mapper>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.offway.lxm.mapper.OrderMapper">
+<mapper namespace="com.offway.lxm.dao.OrderMapper">
 
-    <resultMap id="orderResultMap" type="com.offway.common.entity.TOrder">
+    <resultMap id="orderResultMap" type="com.offway.lxm.entity.Order">
         <id column="o_id" property="oId" />
         <result column="g_id" property="gId" />
-        <result column="g_id" property="iImgurl" />
-        <result column="g_id" property="tGoodsName" />
-        <result column="g_id" property="tGoodsCurPrice" />
+        <result column="i_imgurl" property="iImgurl" />
+        <result column="t_goods_name" property="tGoodsName" />
+        <result column="t_goods_cur_price" property="tGoodsCurPrice" />
         <result column="ud_id" property="udId" />
         <result column="c_id" property="cId" />
         <result column="o_num" property="oNum" />

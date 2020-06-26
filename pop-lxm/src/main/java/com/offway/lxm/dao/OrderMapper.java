@@ -1,13 +1,13 @@
-package com.offway.lxm.mapper;
+package com.offway.lxm.dao;
 
 import com.offway.lxm.entity.Order;
-import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
 /**
  * 用户订单模块
  */
+
 public interface OrderMapper {
 
     /**

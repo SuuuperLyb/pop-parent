@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @MapperScan("com.offway.common.mapper")
-@MapperScan("com.offway.lxm.mapper")
+@MapperScan("com.offway.lxm.dao")
 @ComponentScan("com.offway.common.conf")
 @ComponentScan("com.offway.lxm.conf")
 public class PopLxmApplicationTests {

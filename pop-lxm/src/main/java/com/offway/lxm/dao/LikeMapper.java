@@ -1,8 +1,9 @@
-package com.offway.lxm.mapper;
+package com.offway.lxm.dao;
 
 import com.offway.lxm.entity.TUserlikeGoods;
 import com.offway.lxm.entity.TUserlikeStarStyle;
 import com.offway.lxm.entity.TUserlikeStore;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -13,7 +14,7 @@ public interface LikeMapper {
      * @param uId
      * @return
      */
-    List<TUserlikeGoods> selectgoods(Integer uId);
+    List<TUserlikeGoods> selectgoods(@Param("uId") Integer uId);
 
 
 
@@ -30,13 +31,6 @@ public interface LikeMapper {
      * @return
      */
     List<TUserlikeStarStyle> selectstar(Integer uId);
-
-    /**
-     * 查询用户喜欢的明星穿搭
-     * @param starstyleid
-     * @return
-     */
-    List<TUserlikeStarStyle> selectstarstyle(List<Integer> starstyleid);
 
 
 }

@@ -1,6 +1,8 @@
 package com.offway.lxm.service;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.offway.common.entity.R;
+import com.offway.common.entity.TUserlike;
 import com.offway.lxm.dto.DeleteUserlikeDto;
 
 /**

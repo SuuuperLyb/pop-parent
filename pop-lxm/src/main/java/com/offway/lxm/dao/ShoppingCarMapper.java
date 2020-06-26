@@ -1,12 +1,11 @@
-package com.offway.lxm.mapper;
+package com.offway.lxm.dao;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.offway.lxm.entity.ShoppingCar;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
-public interface ShoppingCarMapper extends BaseMapper<ShoppingCar> {
+public interface ShoppingCarMapper {
     /**
      * 查询用户购物车中详细信息
      * @param uId
@@ -27,5 +26,5 @@ public interface ShoppingCarMapper extends BaseMapper<ShoppingCar> {
      * @param scId
      * @return
      */
-//    int selectgoodsCount(int scId);
+    int selectgoodsCount(int scId);
 }

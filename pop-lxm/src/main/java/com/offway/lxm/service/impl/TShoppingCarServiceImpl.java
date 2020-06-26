@@ -1,10 +1,8 @@
 package com.offway.lxm.service.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.offway.common.conf.RedisKeyConfig;
 import com.offway.common.entity.R;
-import com.offway.common.entity.TShoppingCar;
 import com.offway.common.entity.TUser;
 import com.offway.common.mapper.TShoppingCarMapper;
 import com.offway.common.three.JedisCore;
@@ -13,8 +11,9 @@ import com.offway.lxm.dto.DeleteShoppingCarDto;
 import com.offway.lxm.dto.DelmanyDto;
 import com.offway.lxm.dto.UpdateGoodsNumDto;
 import com.offway.lxm.entity.ShoppingCar;
-import com.offway.lxm.mapper.ShoppingCarMapper;
+import com.offway.lxm.dao.ShoppingCarMapper;
 import com.offway.lxm.service.TShoppingCarService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -29,7 +28,7 @@ import java.util.List;
 public class TShoppingCarServiceImpl implements TShoppingCarService {
     @Resource
     private JedisCore jedisCore;
-    @Resource
+    @Autowired(required = false)
     private ShoppingCarMapper shoppingCarMapper;
     @Resource
     private TShoppingCarMapper tShoppingCarMapper;
@@ -40,7 +39,7 @@ public class TShoppingCarServiceImpl implements TShoppingCarService {
      */
     @Override
     public R selectAll(String token) {
-        if(!jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)){
+        if(jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)==false){
             return Rutil.err("请登录");
         }else {
             TUser user = JSON.parseObject(jedisCore.getVal(RedisKeyConfig.LOGIN_USER+token), TUser.class);
@@ -56,15 +55,20 @@ public class TShoppingCarServiceImpl implements TShoppingCarService {
      */
     @Override
     public R updatenum(UpdateGoodsNumDto updateGoodsNumDto) {
-        if(!jedisCore.isExist(RedisKeyConfig.LOGIN_USER+updateGoodsNumDto.getToken())){
+        if(jedisCore.isExist(RedisKeyConfig.LOGIN_USER+updateGoodsNumDto.getToken())==false){
             return Rutil.err("请登录");
         }else {
             //判断要修改的商品数量是否大于最大库存
-//            int count=shoppingCarMapper.selectgoodsCount(updateGoodsNumDto.getScId());
-            if(shoppingCarMapper.updatenum(updateGoodsNumDto.getScId(),updateGoodsNumDto.getgNum())>0){
-                return Rutil.Ok();
-            }else {
-                return Rutil.err("修改失败");
+            int count=shoppingCarMapper.selectgoodsCount(updateGoodsNumDto.getScId());
+            //判断要修改的商品数量是否大于库存
+            if(updateGoodsNumDto.getgNum()>count&&updateGoodsNumDto.getgNum()<1){
+                return Rutil.err("不能超过最大数量并且不能小于1");
+            }else{
+                if(shoppingCarMapper.updatenum(updateGoodsNumDto.getScId(),updateGoodsNumDto.getgNum())>0){
+                    return Rutil.Ok();
+                }else {
+                    return Rutil.err("修改失败");
+                }
             }
         }
     }
@@ -76,7 +80,7 @@ public class TShoppingCarServiceImpl implements TShoppingCarService {
      */
     @Override
     public R delone(DeleteShoppingCarDto deleteShoppingCarDto) {
-        if(!jedisCore.isExist(RedisKeyConfig.LOGIN_USER+deleteShoppingCarDto.getToken())){
+        if(jedisCore.isExist(RedisKeyConfig.LOGIN_USER+deleteShoppingCarDto.getToken())==false){
             return Rutil.err("请登录");
         }else {
             if(tShoppingCarMapper.deleteById(deleteShoppingCarDto.getScId())>0){
@@ -95,7 +99,7 @@ public class TShoppingCarServiceImpl implements TShoppingCarService {
      */
     @Override
     public R delmany(DelmanyDto delmanyDto) {
-        if(!jedisCore.isExist(RedisKeyConfig.LOGIN_USER+delmanyDto.getToken())){
+        if(jedisCore.isExist(RedisKeyConfig.LOGIN_USER+delmanyDto.getToken())==false){
             return Rutil.err("请登录");
         }else {
             if(tShoppingCarMapper.deleteBatchIds(delmanyDto.getScidlist())>0){

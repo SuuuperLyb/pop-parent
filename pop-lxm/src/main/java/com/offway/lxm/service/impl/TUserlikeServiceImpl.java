@@ -13,8 +13,9 @@ import com.offway.lxm.dto.DeleteUserlikeDto;
 import com.offway.lxm.entity.TUserlikeGoods;
 import com.offway.lxm.entity.TUserlikeStarStyle;
 import com.offway.lxm.entity.TUserlikeStore;
-import com.offway.lxm.mapper.LikeMapper;
+import com.offway.lxm.dao.LikeMapper;
 import com.offway.lxm.service.TUserlikeService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -29,7 +30,7 @@ import java.util.List;
 public class TUserlikeServiceImpl implements TUserlikeService {
     @Resource
     private JedisCore jedisCore;
-    @Resource
+    @Autowired(required = false)
     private LikeMapper likemapper;
     @Resource
     private TUserlikeMapper userlikeMapper;
@@ -44,7 +45,7 @@ public class TUserlikeServiceImpl implements TUserlikeService {
      */
     @Override
     public R getgoods(String token) {
-        if(!jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)){
+        if(jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)==false){
            return Rutil.err("请登录");
         }else {
             TUser user = JSON.parseObject(jedisCore.getVal(RedisKeyConfig.LOGIN_USER+token), TUser.class);
@@ -60,7 +61,7 @@ public class TUserlikeServiceImpl implements TUserlikeService {
      */
     @Override
     public R getstores(String token) {
-        if(!jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)){
+        if(jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)==false){
             return Rutil.err("请登录");
         }else {
             TUser user = JSON.parseObject(jedisCore.getVal(RedisKeyConfig.LOGIN_USER+token), TUser.class);
@@ -76,12 +77,12 @@ public class TUserlikeServiceImpl implements TUserlikeService {
      */
     @Override
     public R getstarstyles(String token) {
-        if(!jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)){
+        if(jedisCore.isExist(RedisKeyConfig.LOGIN_USER+token)==false){
             return Rutil.err("请登录");
         }else {
             TUser user = JSON.parseObject(jedisCore.getVal(RedisKeyConfig.LOGIN_USER+token), TUser.class);
-            List<TUserlikeStarStyle> userlikeStores = likemapper.selectstar(user.getuId());
-            return Rutil.Ok();
+            List<TUserlikeStarStyle> userlikestars = likemapper.selectstar(user.getuId());
+            return Rutil.Ok(userlikestars);
         }
     }
 
@@ -92,7 +93,7 @@ public class TUserlikeServiceImpl implements TUserlikeService {
      */
     @Override
     public R dellike(DeleteUserlikeDto deleteUserlikeDto) {
-        if(!jedisCore.isExist(RedisKeyConfig.LOGIN_USER+deleteUserlikeDto.getToken())){
+        if(jedisCore.isExist(RedisKeyConfig.LOGIN_USER+deleteUserlikeDto.getToken())==false){
             return Rutil.err("请登录");
         }else {
             TUser user = JSON.parseObject(jedisCore.getVal(RedisKeyConfig.LOGIN_USER+deleteUserlikeDto.getToken()), TUser.class);
