@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 
 import java.io.Serializable;
+import java.time.LocalDate;
 
 /**
  * <p>
@@ -55,6 +56,11 @@ public class TGoodsDetail extends Model<TGoodsDetail> {
     private Double tGoodsCurPrice;
 
     /**
+     * 商品库存
+     */
+    private Integer tGoodsStock;
+
+    /**
      * 商品销量
      */
     private Integer tGoodsSales;
@@ -82,7 +88,58 @@ public class TGoodsDetail extends Model<TGoodsDetail> {
     /**
      * 是否有效
      */
+
+
+
     private Integer tGoodsIsvalid;
+    /**
+     * 商品颜色
+     */
+    private String tGoodsColor;
+
+    /**
+     * 商品上架时间
+     * @return
+     */
+    private LocalDate tCreatTime;
+
+    @Override
+    public String toString() {
+        return "TGoodsDetail{" +
+                "tGoodsId=" + tGoodsId +
+                ", tGoodsName='" + tGoodsName + '\'' +
+                ", tGoodsEngname='" + tGoodsEngname + '\'' +
+                ", tGoodsSize='" + tGoodsSize + '\'' +
+                ", tGoodsPrice=" + tGoodsPrice +
+                ", tGoodsDiscount=" + tGoodsDiscount +
+                ", tGoodsCurPrice=" + tGoodsCurPrice +
+                ", tGoodsStock=" + tGoodsStock +
+                ", tGoodsSales=" + tGoodsSales +
+                ", tStoreId=" + tStoreId +
+                ", tGoodsSort='" + tGoodsSort + '\'' +
+                ", tGoodsRank=" + tGoodsRank +
+                ", tSectypeId='" + tSectypeId + '\'' +
+                ", tGoodsIsvalid=" + tGoodsIsvalid +
+                ", tGoodsColor='" + tGoodsColor + '\'' +
+                ", tCreatTime=" + tCreatTime +
+                '}';
+    }
+
+    public String gettGoodsColor() {
+        return tGoodsColor;
+    }
+
+    public void settGoodsColor(String tGoodsColor) {
+        this.tGoodsColor = tGoodsColor;
+    }
+
+    public LocalDate gettCreatTime() {
+        return tCreatTime;
+    }
+
+    public void settCreatTime(LocalDate tCreatTime) {
+        this.tCreatTime = tCreatTime;
+    }
 
     public Integer gettGoodsId() {
         return tGoodsId;
@@ -137,6 +194,13 @@ public class TGoodsDetail extends Model<TGoodsDetail> {
         return tGoodsSales;
     }
 
+    public Integer gettGoodsStock() {
+        return tGoodsStock;
+    }
+    public void settGoodsStock(Integer tGoodsStock) {
+        this.tGoodsStock = tGoodsStock;
+    }
+
     public void settGoodsSales(Integer tGoodsSales) {
         this.tGoodsSales = tGoodsSales;
     }
@@ -181,22 +245,4 @@ public class TGoodsDetail extends Model<TGoodsDetail> {
         return this.tGoodsId;
     }
 
-    @Override
-    public String toString() {
-        return "TGoodsDetail{" +
-            "tGoodsId=" + tGoodsId +
-            ", tGoodsName=" + tGoodsName +
-            ", tGoodsEngname=" + tGoodsEngname +
-            ", tGoodsSize=" + tGoodsSize +
-            ", tGoodsPrice=" + tGoodsPrice +
-            ", tGoodsDiscount=" + tGoodsDiscount +
-            ", tGoodsCurPrice=" + tGoodsCurPrice +
-            ", tGoodsSales=" + tGoodsSales +
-            ", tStoreId=" + tStoreId +
-            ", tGoodsSort=" + tGoodsSort +
-            ", tGoodsRank=" + tGoodsRank +
-            ", tSectypeId=" + tSectypeId +
-            ", tGoodsIsvalid=" + tGoodsIsvalid +
-        "}";
-    }
 }
