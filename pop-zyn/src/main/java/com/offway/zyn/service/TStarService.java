@@ -6,4 +6,5 @@ public interface TStarService {
 
     R getHotStyle();
     R listAll(int startPage,int pageSize);
+    R listByName(String starName,int startPage,int pageSize);
 }

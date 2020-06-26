@@ -5,22 +5,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pop-common/src/main/java/com/offway/common/conf/MybatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="增加了公共类中的mp配置文件，主要是用来配置分页查询的过滤器">
+      <change afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/dto/StarInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/utils/RefactRecord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-common/pop-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-common/pop-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-dyh/pop-dyh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-dyh/pop-dyh.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-gxb/pop-gxb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-gxb/pop-gxb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-hqs/pop-hqs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-hqs/pop-hqs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-lxm/pop-lxm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-lxm/pop-lxm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-parent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-setup/pop-setup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-setup/pop-setup.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zgy/pop-zgy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zgy/pop-zgy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/pop-zyn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/pop-zyn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/dto/HotStarInf.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/dto/HotStarInf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarDetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarShowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/mapper/TestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/mapper/StarInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/StarDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/StarDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/TStarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/TStarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/StarDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/StarDetailServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/TStarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/TStarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-zyn/src/test/java/com/offway/zyn/ZynApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/test/java/com/offway/zyn/ZynApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -174,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593076327766</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="增加了公共类中的mp配置文件，主要是用来配置分页查询的过滤器">
+      <created>1593143446147</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593143446147</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +201,8 @@
     <MESSAGE value="修改一些公共模块错误 轮播图添加排序字段" />
     <MESSAGE value="保存" />
     <MESSAGE value="修改了明星表和风格表，增加了两者关联的表" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了明星表和风格表，增加了两者关联的表" />
+    <MESSAGE value="增加了公共类中的mp配置文件，主要是用来配置分页查询的过滤器" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了公共类中的mp配置文件，主要是用来配置分页查询的过滤器" />
   </component>
   <component name="WindowStateProjectService">
     <state x="174" y="0" key="#Project_Structure" timestamp="1593065611477">
@@ -210,11 +214,15 @@
     </state>
     <state x="274" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1592999053047" />
     <state x="308" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1593137940016" />
-    <state x="498" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1593067885224">
+    <state x="488" y="217" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593155349383">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="488" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1593155349383" />
+    <state x="498" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1593165703018">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="443" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1593065474619" />
-    <state x="498" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1593067885224" />
+    <state x="498" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1593165703018" />
     <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593074875820">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -231,46 +239,46 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="412" y="66" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1593004669643" />
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1593143269403">
+    <state width="1493" height="333" key="GridCell.Tab.0.bottom" timestamp="1593165297566">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593143269403" />
-    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1593143269403">
+    <state width="1493" height="333" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593165297566" />
+    <state width="1493" height="333" key="GridCell.Tab.0.center" timestamp="1593165297566">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593143269403" />
-    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1593143269403">
+    <state width="1493" height="333" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593165297566" />
+    <state width="1493" height="333" key="GridCell.Tab.0.left" timestamp="1593165297566">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593143269403" />
-    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1593143269403">
+    <state width="1493" height="333" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593165297566" />
+    <state width="1493" height="333" key="GridCell.Tab.0.right" timestamp="1593165297566">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593143269403" />
-    <state width="1493" height="225" key="GridCell.Tab.1.bottom" timestamp="1593142923287">
+    <state width="1493" height="333" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593165297566" />
+    <state width="1493" height="333" key="GridCell.Tab.1.bottom" timestamp="1593165297566">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1493" height="225" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593142923287" />
-    <state width="1493" height="225" key="GridCell.Tab.1.center" timestamp="1593142923287">
+    <state width="1493" height="333" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593165297566" />
+    <state width="1493" height="333" key="GridCell.Tab.1.center" timestamp="1593165297566">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1493" height="225" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1593142923287" />
-    <state width="1493" height="225" key="GridCell.Tab.1.left" timestamp="1593142923287">
+    <state width="1493" height="333" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1593165297566" />
+    <state width="1493" height="333" key="GridCell.Tab.1.left" timestamp="1593165297566">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1493" height="225" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1593142923287" />
-    <state width="1493" height="225" key="GridCell.Tab.1.right" timestamp="1593142923287">
+    <state width="1493" height="333" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1593165297566" />
+    <state width="1493" height="333" key="GridCell.Tab.1.right" timestamp="1593165297566">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1493" height="225" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1593142923287" />
+    <state width="1493" height="333" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1593165297566" />
     <state width="1493" height="111" key="GridCell.Tab.2.bottom" timestamp="1593142289658">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -300,11 +308,11 @@
     </state>
     <state x="67" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1593053200425" />
     <state x="75" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1593081023955" />
-    <state x="196" y="41" key="Vcs.Push.Dialog.v2" timestamp="1593076347258">
+    <state x="196" y="41" key="Vcs.Push.Dialog.v2" timestamp="1593143455553">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="174" y="36" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1593064904944" />
-    <state x="196" y="41" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1593076347258" />
+    <state x="196" y="41" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1593143455553" />
     <state x="299" y="151" key="com.intellij.ide.util.TipDialog" timestamp="1593050310513">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -322,10 +330,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="421" y="30" width="733" height="783" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1593075299223" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1593069918735">
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1593168968276">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1593069918735" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1593168968276" />
     <state x="402" y="266" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1593058597791">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

@@ -43,4 +43,15 @@ public class StarDetailController {
     }
 
 
+    /**
+     * @Author starzyn
+     * @Description 点击我喜欢根据明星风格id来给该明星风格添加热度
+     * @Date 11:36 2020/6/25
+     * @Param [id]
+     * @return com.offway.common.entity.R
+     **/
+    @GetMapping("/star/addlike")
+    public R addLike(@RequestParam(name = "starStyleId") int id,@RequestParam(name = "token") String token){
+        return starDetailService.addLike(id,token);
+    }
 }

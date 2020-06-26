@@ -44,25 +44,15 @@ public class StarShowController {
 
     /**
      * @Author starzyn
-     * @Description 根据发送请求到后台的明星姓名来查询该明星的所有会穿搭
+     * @Description 根据发送请求到后台的明星姓名来查询该明星的所有的穿搭
      * @Date 10:17 2020/6/25
      * @Param [starName]
      * @return com.offway.common.entity.R
      **/
     @GetMapping("/star/listByname")
-    public R listByname(@RequestParam(name = "starName",required = false) String starName){
-        return null;
-    }
-
-   /**
-    * @Author starzyn
-    * @Description 点击我喜欢根据明星风格id来给该明星风格添加热度
-    * @Date 11:36 2020/6/25
-    * @Param [id]
-    * @return com.offway.common.entity.R
-    **/
-    @GetMapping("/star/addlike")
-    public R addLike(@RequestParam(name = "starStyleId") String id){
-        return null;
+    public R listByname(@RequestParam(name = "starName",required = false) String starName,
+                        @RequestParam(name = "startPage",defaultValue = "1") int starPage,
+                        @RequestParam(name = "pageSize",defaultValue = "6") int pageSize){
+        return tStarService.listByName(starName,starPage,pageSize);
     }
 }
