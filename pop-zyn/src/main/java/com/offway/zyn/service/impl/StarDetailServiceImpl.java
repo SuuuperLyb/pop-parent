@@ -132,6 +132,7 @@ public class StarDetailServiceImpl implements StarDetailService {
             //查询对应的明星信息
             TStar star = tStarMapper.selectOne(new QueryWrapper<TStar>().eq("id",tStarStyle.getStarId()));
             Object goodId = tStarmetastyleMapper.selectObjs(new QueryWrapper<TStarmetastyle>().eq("star_id",star.getId()).eq("style_id",tStarStyle.getStyleId())).get(0);
+
         }
         return null;
     }

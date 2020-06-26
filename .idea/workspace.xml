@@ -5,11 +5,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="明星风格首页完成">
-      <change afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/dto/StarStyleDetail.java" afterDir="false" />
+    <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="明星风格详情页提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarDetailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/StarDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/StarDetailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/StarDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/StarDetailServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592994652923</updated>
       <workItem from="1593075886836" duration="1591000" />
-      <workItem from="1593169797442" duration="9586000" />
+      <workItem from="1593169797442" duration="9662000" />
     </task>
     <task id="LOCAL-00001" summary="统一返回值&#10;增加redis依赖">
       <created>1593001680160</created>
@@ -177,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593169332665</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="明星风格详情页提交">
+      <created>1593180716180</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593180716180</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +207,8 @@
     <MESSAGE value="修改了明星表和风格表，增加了两者关联的表" />
     <MESSAGE value="增加了公共类中的mp配置文件，主要是用来配置分页查询的过滤器" />
     <MESSAGE value="明星风格首页完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="明星风格首页完成" />
+    <MESSAGE value="明星风格详情页提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="明星风格详情页提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="174" y="0" key="#Project_Structure" timestamp="1593065611477">
@@ -323,11 +328,11 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="441" y="266" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1593064847574" />
-    <state x="370" y="130" key="git4idea.merge.GitPullDialog" timestamp="1593137384561">
+    <state x="370" y="130" key="git4idea.merge.GitPullDialog" timestamp="1593180723890">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="329" y="115" key="git4idea.merge.GitPullDialog/0.0.1366.738@0.0.1366.738" timestamp="1593064855655" />
-    <state x="370" y="130" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1593137384561" />
+    <state x="370" y="130" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1593180723890" />
     <state x="421" y="30" width="733" height="783" key="new project wizard" timestamp="1593075299223">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
