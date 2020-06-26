@@ -26,8 +26,8 @@ public class StarDetailController {
      * @return com.offway.common.entity.R
      **/
     @GetMapping("/star/detail")
-    public R showDetail(@RequestParam(name = "starStyleId") String starStyleId){
-        return null;
+    public R showDetail(@RequestParam(name = "starStyleId") int starStyleId){
+        return starDetailService.showDetail(starStyleId);
     }
 
     /**
@@ -38,8 +38,8 @@ public class StarDetailController {
      * @return com.offway.common.entity.R
      **/
     @GetMapping("/star/dislike")
-    public R disLike(@RequestParam(name = "starStyleId") String starStyleId){
-        return null;
+    public R disLike(@RequestParam(name = "starStyleId") int starStyleId,@RequestParam(name = "token") String token){
+        return starDetailService.dislike(starStyleId,token);
     }
 
 

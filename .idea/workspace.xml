@@ -5,18 +5,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="增加了公共类中的mp配置文件，主要是用来配置分页查询的过滤器">
-      <change afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/dto/StarInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/utils/RefactRecord.java" afterDir="false" />
+    <list default="true" id="cd005f13-d181-4541-a957-265021061d2e" name="Default Changelist" comment="明星风格首页完成">
+      <change afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/dto/StarStyleDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarDetailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/controller/StarShowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/mapper/TestMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/mapper/StarInfoMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/StarDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/StarDetailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/TStarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/TStarService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/StarDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/StarDetailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/TStarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/main/java/com/offway/zyn/service/impl/TStarServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop-zyn/src/test/java/com/offway/zyn/ZynApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pop-zyn/src/test/java/com/offway/zyn/ZynApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,9 +32,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\repository" />
-        <option name="mavenHome" value="D:/maven/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="userSettingsFile" value="D:\Software\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -127,6 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592994652923</updated>
       <workItem from="1593075886836" duration="1591000" />
+      <workItem from="1593169797442" duration="9586000" />
     </task>
     <task id="LOCAL-00001" summary="统一返回值&#10;增加redis依赖">
       <created>1593001680160</created>
@@ -177,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593143446147</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="明星风格首页完成">
+      <created>1593169332665</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593169332665</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +202,8 @@
     <MESSAGE value="保存" />
     <MESSAGE value="修改了明星表和风格表，增加了两者关联的表" />
     <MESSAGE value="增加了公共类中的mp配置文件，主要是用来配置分页查询的过滤器" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了公共类中的mp配置文件，主要是用来配置分页查询的过滤器" />
+    <MESSAGE value="明星风格首页完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="明星风格首页完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="174" y="0" key="#Project_Structure" timestamp="1593065611477">
@@ -218,11 +219,11 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="488" y="217" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1593155349383" />
-    <state x="498" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1593165703018">
+    <state x="498" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1593177670087">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="443" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1593065474619" />
-    <state x="498" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1593165703018" />
+    <state x="498" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1593177670087" />
     <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593074875820">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -235,66 +236,67 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="128" y="60" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1593002186994" />
-    <state x="412" y="66" key="FileChooserDialogImpl" timestamp="1593004669643">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="463" y="75" key="FileChooserDialogImpl" timestamp="1593175806398">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="412" y="66" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1593004669643" />
-    <state width="1493" height="333" key="GridCell.Tab.0.bottom" timestamp="1593165297566">
+    <state x="463" y="75" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1593175806398" />
+    <state width="1493" height="111" key="GridCell.Tab.0.bottom" timestamp="1593169338399">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1493" height="333" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593165297566" />
-    <state width="1493" height="333" key="GridCell.Tab.0.center" timestamp="1593165297566">
+    <state width="1493" height="111" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593169338399" />
+    <state width="1493" height="111" key="GridCell.Tab.0.center" timestamp="1593169338399">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1493" height="333" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593165297566" />
-    <state width="1493" height="333" key="GridCell.Tab.0.left" timestamp="1593165297566">
+    <state width="1493" height="111" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1593169338399" />
+    <state width="1493" height="111" key="GridCell.Tab.0.left" timestamp="1593169338399">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1493" height="333" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593165297566" />
-    <state width="1493" height="333" key="GridCell.Tab.0.right" timestamp="1593165297566">
+    <state width="1493" height="111" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1593169338399" />
+    <state width="1493" height="111" key="GridCell.Tab.0.right" timestamp="1593169338399">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1593056705391" />
-    <state width="1493" height="333" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593165297566" />
-    <state width="1493" height="333" key="GridCell.Tab.1.bottom" timestamp="1593165297566">
+    <state width="1493" height="111" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1593169338399" />
+    <state width="1493" height="111" key="GridCell.Tab.1.bottom" timestamp="1593169338400">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1493" height="333" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593165297566" />
-    <state width="1493" height="333" key="GridCell.Tab.1.center" timestamp="1593165297566">
+    <state width="1493" height="111" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593169338400" />
+    <state width="1493" height="111" key="GridCell.Tab.1.center" timestamp="1593169338400">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1493" height="333" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1593165297566" />
-    <state width="1493" height="333" key="GridCell.Tab.1.left" timestamp="1593165297566">
+    <state width="1493" height="111" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1593169338400" />
+    <state width="1493" height="111" key="GridCell.Tab.1.left" timestamp="1593169338399">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1493" height="333" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1593165297566" />
-    <state width="1493" height="333" key="GridCell.Tab.1.right" timestamp="1593165297566">
+    <state width="1493" height="111" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1593169338399" />
+    <state width="1493" height="111" key="GridCell.Tab.1.right" timestamp="1593169338400">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1309" height="219" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1593008021443" />
-    <state width="1493" height="333" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1593165297566" />
-    <state width="1493" height="111" key="GridCell.Tab.2.bottom" timestamp="1593142289658">
+    <state width="1493" height="111" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1593169338400" />
+    <state width="1493" height="111" key="GridCell.Tab.2.bottom" timestamp="1593169338400">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="111" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593142289658" />
-    <state width="1493" height="111" key="GridCell.Tab.2.center" timestamp="1593142289658">
+    <state width="1493" height="111" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1593169338400" />
+    <state width="1493" height="111" key="GridCell.Tab.2.center" timestamp="1593169338400">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="111" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1593142289658" />
-    <state width="1493" height="111" key="GridCell.Tab.2.left" timestamp="1593142289658">
+    <state width="1493" height="111" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1593169338400" />
+    <state width="1493" height="111" key="GridCell.Tab.2.left" timestamp="1593169338400">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="111" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1593142289658" />
-    <state width="1493" height="111" key="GridCell.Tab.2.right" timestamp="1593142289658">
+    <state width="1493" height="111" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1593169338400" />
+    <state width="1493" height="111" key="GridCell.Tab.2.right" timestamp="1593169338400">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="111" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1593142289658" />
+    <state width="1493" height="111" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1593169338400" />
     <state x="128" y="61" key="MergeDialog" timestamp="1593064798642">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -303,11 +305,11 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="323" y="15" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1593064805935" />
-    <state x="75" y="0" key="SettingsEditor" timestamp="1593081023955">
+    <state x="75" y="0" key="SettingsEditor" timestamp="1593175811444">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="67" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1593053200425" />
-    <state x="75" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1593081023955" />
+    <state x="75" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1593175811444" />
     <state x="196" y="41" key="Vcs.Push.Dialog.v2" timestamp="1593143455553">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
