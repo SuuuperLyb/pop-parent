@@ -16,7 +16,7 @@ public class MainPageController {
     private MainPageService mainPageService;
 
     //首页轮播图
-    @GetMapping("api/mainpage/findAdPic.action")
+    @GetMapping("/api/mainpage/findAdPic.action")
     public R findAdPic(){
         return mainPageService.findAdPic();
     }

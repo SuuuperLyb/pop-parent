@@ -1,14 +1,13 @@
-package com.offway.poplyb;
+package com.offway.lyb;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 
 @SpringBootApplication
-@EnableSwagger2
+//@EnableSwagger2
 @MapperScan("com.offway.common.mapper")
 @MapperScan("com.offway.lyb.mapper")
 @ComponentScan("com.offway.lyb.conf")
