@@ -1,0 +1,12 @@
+com\offway\popgxb\controller\GoodsDetailController.class
+com\offway\popgxb\dao\TSectypeDao.class
+com\offway\popgxb\dto\GoodsDetailDto.class
+com\offway\popgxb\config\SwaggerConfig.class
+com\offway\popgxb\dto\UpdateGoodsDetailDto.class
+com\offway\popgxb\dao\TGoodsDetailDao.class
+com\offway\popgxb\main\Test.class
+com\offway\popgxb\service\impl\ITGoodsDetailServiceImpl.class
+com\offway\popgxb\dao\TFirsttypeDao.class
+com\offway\popgxb\service\ITGoodsDetailService.class
+com\offway\popgxb\PopGxbApplication.class
+com\offway\popgxb\dto\GoodsSortDto.class
