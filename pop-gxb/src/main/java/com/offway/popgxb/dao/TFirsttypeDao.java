@@ -13,7 +13,7 @@ import java.util.List;
  * Date: 2020/6/26 15:43:43
  * project name: pop-parent
  * @Version:
- * @Description:
+ * @Description: mapper
  */
 @Mapper
 public interface TFirsttypeDao {
