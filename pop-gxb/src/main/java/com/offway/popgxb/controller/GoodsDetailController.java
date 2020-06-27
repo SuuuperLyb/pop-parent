@@ -1,6 +1,5 @@
 package com.offway.popgxb.controller;
 
-
 import com.offway.common.entity.R;
 import com.offway.common.entity.TFirsttype;
 import com.offway.common.util.Rutil;
