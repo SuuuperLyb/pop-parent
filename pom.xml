@@ -18,14 +18,8 @@
 
     <modules>
         <module>pop-common</module>
-        <module>pop-setup</module>
-        <module>pop-zyn</module>
-        <module>pop-lxm</module>
-        <module>pop-dyh</module>
         <module>pop-gxb</module>
-        <module>pop-hqs</module>
 <!--        <module>pop-lyb</module>-->
-        <module>pop-zgy</module>
     </modules>
 
     <properties>

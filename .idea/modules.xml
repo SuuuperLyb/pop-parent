@@ -3,14 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/pop-common/pop-common.iml" filepath="$PROJECT_DIR$/pop-common/pop-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pop-dyh/pop-dyh.iml" filepath="$PROJECT_DIR$/pop-dyh/pop-dyh.iml" />
       <module fileurl="file://$PROJECT_DIR$/pop-gxb/pop-gxb.iml" filepath="$PROJECT_DIR$/pop-gxb/pop-gxb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pop-hqs/pop-hqs.iml" filepath="$PROJECT_DIR$/pop-hqs/pop-hqs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pop-lxm/pop-lxm.iml" filepath="$PROJECT_DIR$/pop-lxm/pop-lxm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pop-gxb/pop-gxb (1).iml" filepath="$PROJECT_DIR$/../pop-gxb/pop-gxb (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/pop-parent.iml" filepath="$PROJECT_DIR$/pop-parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pop-setup/pop-setup.iml" filepath="$PROJECT_DIR$/pop-setup/pop-setup.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pop-zgy/pop-zgy.iml" filepath="$PROJECT_DIR$/pop-zgy/pop-zgy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pop-zyn/pop-zyn.iml" filepath="$PROJECT_DIR$/pop-zyn/pop-zyn.iml" />
     </modules>
   </component>
 </project>

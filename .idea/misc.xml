@@ -4,11 +4,19 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../pop-gxb/pom.xml" />
+        <option value="$PROJECT_DIR$/pop-gxb/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/pop-dyh/pom.xml" />
+        <option value="$PROJECT_DIR$/pop-hqs/pom.xml" />
+        <option value="$PROJECT_DIR$/pop-lxm/pom.xml" />
         <option value="$PROJECT_DIR$/pop-lyb/pom.xml" />
+        <option value="$PROJECT_DIR$/pop-setup/pom.xml" />
+        <option value="$PROJECT_DIR$/pop-zgy/pom.xml" />
+        <option value="$PROJECT_DIR$/pop-zyn/pom.xml" />
       </set>
     </option>
   </component>

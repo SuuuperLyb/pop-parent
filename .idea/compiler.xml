@@ -2,24 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pop-common" />
-        <module name="pop-lxm" />
-        <module name="pop-setup" />
-        <module name="pop-dyh" />
-        <module name="pop-hqs" />
+        <module name="pop-gxb (1)" />
         <module name="pop-gxb" />
-        <module name="pop-zyn" />
-        <module name="pop-zgy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="pop-common" target="1.8" />
       <module name="pop-dyh" target="1.8" />
       <module name="pop-gxb" target="1.8" />
+      <module name="pop-gxb (1)" target="1.8" />
       <module name="pop-hqs" target="1.8" />
       <module name="pop-lxm" target="1.8" />
       <module name="pop-lyb" target="1.8" />
@@ -34,6 +31,7 @@
       <module name="pop-common" options="-parameters" />
       <module name="pop-dyh" options="-parameters" />
       <module name="pop-gxb" options="-parameters" />
+      <module name="pop-gxb (1)" options="-parameters" />
       <module name="pop-hqs" options="-parameters" />
       <module name="pop-lxm" options="-parameters" />
       <module name="pop-lyb" options="-parameters" />

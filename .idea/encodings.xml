@@ -4,14 +4,11 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pop-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pop-common/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pop-dyh" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pop-gxb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pop-gxb/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pop-hqs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pop-lxm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pop-lxm/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pop-setup" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pop-setup/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pop-zgy" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pop-zyn" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pop-zyn/src/main/java" charset="UTF-8" />
   </component>
